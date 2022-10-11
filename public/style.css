@@ -1,0 +1,77 @@
+h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.fs-1 {
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+body {
+  background: linear-gradient(-20deg, #111630e9, #272457dd);
+}
+
+.bg-header {
+  background: linear-gradient(-5deg, transparent 18%, white);
+}
+
+.bg-projects {
+  background: linear-gradient(
+    -185deg,
+    transparent 8%,
+    #ffffff5a,
+    transparent 92%
+  );
+}
+
+/* Center the bootstrap cards */
+.card {
+  margin: 0 auto;
+  float: none;
+  border-radius: 20%;
+  background: linear-gradient(-0deg, #313752e9, #444072dd);
+  /* max-width: 60rem; */
+}
+
+.card-text,
+.card-title {
+  color: white;
+}
+
+/* Shift section down after clicking on navbar section id */
+section::before {
+  height: 80px;
+  content: "";
+  display: block;
+}
+
+/* Hide element if clicked */
+.hide-clicked[aria-expanded="true"] {
+  display: none;
+}
+
+/* Fixed Card Sizes */
+.card-img-top {
+  width: 70rem;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.icon-img {
+  margin: 0.7rem auto;
+  max-width: 3rem;
+  max-height: 3rem;
+  object-fit: cover;
+}
+
+.bg-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(0.6em);
+}
+
+.text-light {
+  text-decoration: none;
+}
