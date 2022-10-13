@@ -7,33 +7,38 @@ h1 {
 }
 
 body {
-  background: linear-gradient(-20deg, #111630e9, #272457dd);
+  background: linear-gradient(-20deg, #0c0f1ee9, #1d1a44dd);
 }
 
 .bg-header {
-  background: linear-gradient(-5deg, transparent 18%, white);
+  background: linear-gradient(-5deg, transparent 18%, #0e242a);
 }
 
 .bg-projects {
   background: linear-gradient(
     -185deg,
     transparent 8%,
-    #ffffff5a,
+    #1005415a,
     transparent 92%
   );
 }
+
+.bg-contact {
+  background: linear-gradient(-187deg, transparent 25%, #7482c93c);
+}
+
 
 /* Center the bootstrap cards */
 .card {
   margin: 0 auto;
   float: none;
   border-radius: 20%;
-  background: linear-gradient(-0deg, #313752e9, #444072dd);
+  background: linear-gradient(-0deg, #232a4de9, #171531dd);
   /* max-width: 60rem; */
 }
 
 .card-text,
-.card-title {
+.card-title{
   color: white;
 }
 
