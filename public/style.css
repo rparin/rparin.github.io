@@ -27,7 +27,6 @@ body {
   background: linear-gradient(-187deg, transparent 25%, #14182f);
 }
 
-
 /* Center the bootstrap cards */
 .card {
   margin: 0 auto;
@@ -38,7 +37,7 @@ body {
 }
 
 .card-text,
-.card-title{
+.card-title {
   color: white;
 }
 
