@@ -13,7 +13,7 @@ export default function PImage(img: pImage) {
   return (
     <div className=" text-black relative [&>a]:hover:visible [&>a]:hover:opacity-100">
       <Image
-        className="object-cover h-44 w-80 lg:h-80 lg:w-80"
+        className="object-cover h-44 w-80 lg:h-80 lg:w-80 2xl:w-96"
         src={img.src}
         alt={img.alt}
       />
