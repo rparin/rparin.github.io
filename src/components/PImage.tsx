@@ -13,12 +13,12 @@ export default function PImage(img: pImage) {
   return (
     <div className=" text-black relative [&>a]:hover:visible [&>a]:hover:opacity-100">
       <Image
-        className="object-cover h-44 w-80 lg:h-80 lg:w-96"
+        className="object-cover h-44 w-80 lg:h-80 lg:w-80"
         src={img.src}
         alt={img.alt}
       />
       <a
-        className="lg:flex flex-col justify-end absolute invisible bottom-0 h-44 w-80 lg:h-80 lg:w-96 lg:hover:bg-gradient-to-b from-slate-50/0 to-gray-900/70 pb-3"
+        className="lg:flex flex-col justify-end absolute invisible bottom-0 h-44 w-80 lg:h-80 lg:w-80 lg:hover:bg-gradient-to-b from-slate-50/0 to-gray-900/70 pb-3"
         href={img.link}
         target="_blank"
         rel="noopener noreferrer">
