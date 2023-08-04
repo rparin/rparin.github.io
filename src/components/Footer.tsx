@@ -11,7 +11,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer">
           <Image
-            className="invert w-auto h-3 2xl:h-10"
+            className="max-w-[1.5vh] invert w-auto h-3 2xl:h-10"
             src={extLink}
             alt="Source code for portfolio website on github"
           />
