@@ -60,7 +60,7 @@ export default function Project() {
             desc="A tower defense game I made in unity with my friends.
             Art models obtained from the Unity Asset store. In
             this game I designed the layout of the map and coded
-            how the units would move."
+            how some of the units would move."
           />
         </div>
       </div>
