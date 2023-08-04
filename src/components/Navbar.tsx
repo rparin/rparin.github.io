@@ -34,9 +34,9 @@ export default function Navbar() {
   return (
     <nav
       ref={navRef}
-      className="fixed left-0 top-0 px-14 w-full md:flex backdrop-blur-md 2xl:backdrop-blur-xl 2xl:pt-10 pt-3 pb-2 md:pt-1 md:pb-1 2xl:pb-4 bg-slate-900/0 2xl:px-44 z-50">
+      className="fixed left-0 top-0 px-14 w-full md:flex backdrop-blur-md 2xl:backdrop-blur-xl 2xl:pt-6 pt-3 pb-2 md:pt-1 md:pb-1 2xl:pb-4 bg-slate-900/0 2xl:px-44 z-50">
       <div className="flex flex-row w-full justify-between text-2xl">
-        <a href="#home" className="hidden md:block 2xl:pt-10">
+        <a href="#home" className="hidden md:block">
           <b>Ralph Parin</b>
         </a>
         <a onClick={closeHamburger} href="#home" className="block md:hidden">
