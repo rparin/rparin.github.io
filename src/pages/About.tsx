@@ -13,7 +13,7 @@ export default function About() {
       id="about"
       className="before:content-[''] before:h-10 before:block 2xl:before:h-32 flex min-h-screen flex-col">
       <h2 className="text-center">About Me</h2>
-      <p className="text-left mx-10 md:mx-44 2xl:mx-96 mb-5 2xl:mb-24">
+      <p className="text-left mx-10 md:mx-44 2xl:mx-96 2xl:px-44 mb-5 2xl:mb-24">
         I'm currently a student at University of California, Irvine majoring in
         computer science.
         <br />
@@ -32,39 +32,39 @@ export default function About() {
         Illustrator, After Effects, Aegisub and many other creator tools.
       </p>
       <h3 className="text-center">Skills</h3>
-      <div className="flex flex-wrap justify-center gap-7 mx-3 2xl:gap-24">
+      <div className="flex flex-wrap justify-center items-center gap-7 2xl:gap-0.5 mx-3">
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={cppLogo}
           alt="C++ logo"
         />
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={pyLogo}
           alt="Python logo"
         />
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={javaLogo}
           alt="Java logo"
         />
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={htmlLogo}
           alt="HTML logo"
         />
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={cssLogo}
           alt="CSS logo"
         />
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={jsLogo}
           alt="Javascript logo"
         />
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
           src={tsLogo}
           alt="Typescript logo"
         />
