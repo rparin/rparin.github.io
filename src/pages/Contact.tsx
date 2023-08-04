@@ -28,7 +28,7 @@ export default function Contact() {
     cInfos.push(
       <a href={info[i].href} target="_blank" rel="noopener noreferrer" key={i}>
         <Image
-          className="p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl hover:p-0"
+          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl hover:p-0"
           src={info[i].src}
           alt={info[i].alt}
         />
@@ -38,10 +38,10 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex min-h-[90vh] flex-col text-center justify-center">
+      className="flex min-h-[90vh] flex-col text-center justify-center items-center">
       <h2>Contact Me</h2>
       <p className="pb-1">Feel free to reach out! I don't bite.</p>
-      <div className="flex flex-wrap justify-center gap-6 2xl:gap-14">
+      <div className="flex flex-wrap justify-center items-center gap-6 2xl:gap-0.5">
         {cInfos}
       </div>
     </section>
