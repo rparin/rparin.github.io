@@ -40,7 +40,7 @@ export default function Contact() {
       id="contact"
       className="flex min-h-[90vh] flex-col text-center justify-center items-center">
       <h2>Contact Me</h2>
-      <p className="pb-1">Feel free to reach out! I don't bite.</p>
+      <p className="pb-1">Feel free to reach out! I don&apos;t bite.</p>
       <div className="flex flex-wrap justify-center items-center gap-6 2xl:gap-0.5">
         {cInfos}
       </div>

@@ -14,8 +14,8 @@ export default function About() {
       className="before:content-[''] before:h-10 before:block 2xl:before:h-32 flex min-h-screen flex-col">
       <h2 className="text-center">About Me</h2>
       <p className="text-left mx-10 md:mx-44 2xl:mx-96 2xl:px-44 mb-5 2xl:mb-24">
-        I'm currently a student at University of California, Irvine majoring in
-        computer science.
+        I&apos;m currently a student at University of California, Irvine
+        majoring in computer science.
         <br />
         <br />
         I found my passion of coding through automation. At a young age I
