@@ -18,7 +18,7 @@ export default function PImage(img: pImage) {
         alt={img.alt}
       />
       <a
-        className="lg:flex flex-col justify-end absolute invisible bottom-0 h-44 w-80 lg:h-80 lg:w-80 lg:hover:bg-gradient-to-b from-slate-50/0 to-gray-900/70 pb-3"
+        className="lg:flex flex-col justify-end absolute invisible bottom-0 h-44 w-80 lg:h-80 lg:w-80 2xl:w-96 lg:hover:bg-gradient-to-b from-slate-50/0 to-gray-900/70 pb-3"
         href={img.link}
         target="_blank"
         rel="noopener noreferrer">
