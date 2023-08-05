@@ -78,7 +78,7 @@ export default function Navbar() {
               href="../../public/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer">
-              Resume
+              ResumeX
             </a>
           </li>
         </ul>
