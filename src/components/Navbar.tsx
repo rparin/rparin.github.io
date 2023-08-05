@@ -2,6 +2,8 @@
 import { useState, useRef, useEffect } from "react";
 import Hamburger from "./Hamburger";
 
+// import x from '../../public/Resume.pdf'
+
 export default function Navbar() {
   const [isHamburgerOpen, setHamburgerState] = useState(false);
 
@@ -73,7 +75,7 @@ export default function Navbar() {
           <li>
             <a
               onClick={closeHamburger}
-              href="https://rparin.github.io/public/Resume.pdf"
+              href="../../public/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer">
               Resume
