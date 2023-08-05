@@ -75,10 +75,10 @@ export default function Navbar() {
           <li>
             <a
               onClick={closeHamburger}
-              href="../../public/Resume.pdf"
+              href="https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer">
-              ResumeX
+              Resume
             </a>
           </li>
         </ul>
