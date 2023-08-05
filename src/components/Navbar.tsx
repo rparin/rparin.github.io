@@ -73,7 +73,7 @@ export default function Navbar() {
           <li>
             <a
               onClick={closeHamburger}
-              href="https://ralphparin.netlify.app/public/Resume.pdf"
+              href="https://rparin.github.io/public/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer">
               Resume
