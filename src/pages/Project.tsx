@@ -51,7 +51,7 @@ export default function Project() {
             alt={"Multiple phones showcasing sleep tracker app"}
             src={sTracker}
             link="https://github.com/rparin/Sleep-Tracker"
-            desc="A a sleep tracker app that allows users to monitor their sleep patterns and track their progress towards better sleep. 
+            desc="A sleep tracker app that allows users to monitor their sleep patterns and track their progress towards better sleep. 
             With this app, users can record their sleep duration, and quality."
           />
           <PImage
