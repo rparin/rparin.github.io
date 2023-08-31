@@ -1,10 +1,13 @@
 import Image from "next/image";
 import gCalc from "../app/assets/Projects/GCalc.png";
 import sudoku from "../app/assets/Projects/Help.png";
+import ctMap from "../app/assets/Projects/CTMap.png";
 import aTower from "../app/assets/Projects/AttackTowers.jpg";
 import preyPred from "../app/assets/Projects/PreyPredSim.png";
 import tEdit from "../app/assets/Projects/TextEditor.png";
+import sTracker from "../app/assets/Projects/Sleep Tracker.png";
 import PImage from "@/components/PImage";
+import { ST } from "next/dist/shared/lib/utils";
 
 export default function Project() {
   return (
@@ -33,6 +36,23 @@ export default function Project() {
             desc="For this game I used a stack data structure for the
             forward and back buttons and recursion for the board
             creation. The art is done in Photoshop."
+          />
+          <PImage
+            name="Clinical Trials map"
+            alt={
+              "Map displaying multiple locations where Clinical Trials occured"
+            }
+            src={ctMap}
+            desc="Interactive map that displays clinical trial information from around the world. 
+            Users have the ability to explore clinical trial data specific to different regions, such as countries or states."
+          />
+          <PImage
+            name="Sleep Tracker"
+            alt={"Multiple phones showcasing sleep tracker app"}
+            src={sTracker}
+            link="https://github.com/rparin/Sleep-Tracker"
+            desc="A a sleep tracker app that allows users to monitor their sleep patterns and track their progress towards better sleep. 
+            With this app, users can record their sleep duration, and quality."
           />
           <PImage
             name="JText Editor"
