@@ -7,18 +7,10 @@ const AboutGen = {
 };
 
 const AboutSent = [
-  {
-    sent: "reading light novels.",
-  },
-  {
-    sent: "playing games.",
-  },
-  {
-    sent: "watching movies.",
-  },
-  {
-    sent: "trying new things.",
-  },
+  "reading light novels.",
+  "playing games.",
+  "watching movies.",
+  "trying new things.",
 ];
 
 export { AboutGen, AboutSent };
