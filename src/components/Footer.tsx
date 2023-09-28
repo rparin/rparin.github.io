@@ -1,5 +1,5 @@
 import Image from "next/image";
-import extLink from "../app/assets/icons/external-link.svg";
+import extLink from "../assets/icons/external-link.svg";
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
           <Image
             className="max-w-[1.5vh] invert w-auto h-3 2xl:h-10"
             src={extLink}
-            alt="Source code for portfolio website on github"
+            alt="External link to source code"
           />
         </a>
       </div>
