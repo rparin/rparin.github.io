@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import gCalc from "../app/assets/Projects/GCalc.png";
 
 type pImage = {
   name: string;
