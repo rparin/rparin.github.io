@@ -1,5 +1,5 @@
 import Image from "next/image";
-import extLink from "../assets/icons/external-link.svg";
+import extLink from "@icons/external-link.svg";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer">
           <Image
-            className="max-w-[1.5vh] invert w-auto h-3 2xl:h-10"
+            className="max-w-[1.5vh] invert w-auto h-3"
             src={extLink}
             alt="External link to source code"
           />
