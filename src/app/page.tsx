@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function App() {
   return (
-    <main className="bg-slate-500">
+    <main>
       <Landing />
       <Navbar />
       <Project />
