@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="text-center">
       <div className="flex flex-row text-center justify-center">
-        Built using React and Tailwind.
+        <p>Built using React and Tailwind.</p>
         <a
           href="https://github.com/rparin/rparin.github.io"
           target="_blank"
@@ -17,7 +17,7 @@ export default function Footer() {
           />
         </a>
       </div>
-      ©️ 2023. Designed by Ralph Parin.
+      <p>©️ 2023. Designed by Ralph Parin.</p>
     </footer>
   );
 }
