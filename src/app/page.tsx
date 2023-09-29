@@ -4,12 +4,12 @@ import Project from "@/pages/Project";
 import Contact from "@/pages/Contact";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ModeToggle } from "@/components/ui/mode-toggle";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export default function App() {
   return (
     <main>
-      <ModeToggle />
+      <ThemeToggle />
       <Landing />
       <Navbar />
       <Project />
