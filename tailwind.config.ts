@@ -8,13 +8,6 @@ module.exports = {
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
-    colors: {
-      text: "var(--text)",
-      background: "var(--background)",
-      primary: "var(--primary)",
-      secondary: "var(--secondary)",
-      accent: "var(--accent)",
-    },
     container: {
       center: true,
       padding: "2rem",
@@ -23,6 +16,13 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        text: "var(--text)",
+        background: "var(--background)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        accent: "var(--accent)",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
