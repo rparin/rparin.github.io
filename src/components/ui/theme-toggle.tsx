@@ -3,10 +3,11 @@
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
+import { useThemeDetector } from "@/hooks/ThemeDetector";
 
-export function ModeToggle() {
+export function ThemeToggle() {
   const { setTheme } = useTheme();
-  var isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  var isDarkTheme = useThemeDetector();
 
   const changeTheme = () => {
     isDarkTheme = !isDarkTheme;
