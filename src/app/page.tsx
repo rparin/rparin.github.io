@@ -8,7 +8,7 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export default function App() {
   return (
-    <main>
+    <main className="bg-background text-text">
       <ThemeToggle />
       <Landing />
       <Navbar />
