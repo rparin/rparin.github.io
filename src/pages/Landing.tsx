@@ -3,7 +3,7 @@ export default function Landing() {
     <section
       id="home"
       className="flex min-h-screen flex-col text-center justify-center">
-      Landing
+      <h1>Landing</h1>
     </section>
   );
 }
