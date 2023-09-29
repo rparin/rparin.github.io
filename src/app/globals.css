@@ -43,7 +43,7 @@ h5 {
 small {
   font-size: 0.8rem; /* 12.8px */
 }
-
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -66,7 +66,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 html {
   scroll-behavior: smooth;
