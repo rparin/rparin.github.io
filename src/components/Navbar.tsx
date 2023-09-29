@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav className="">
-      <ul className="flex flex-row gap-10 md:gap-12 justify-center">
+      <ul className="flex flex-row gap-10 md:gap-12 md:justify-center my-5 ml-5 pr-5 overflow-y-auto">
         <li>
           <a className="text-xl" href="#projects">
             Projects
