@@ -3,7 +3,7 @@ import extLink from "@icons/external-link.svg";
 
 export default function Footer() {
   return (
-    <footer className="text-center">
+    <footer className="text-center text-white bg-black py-3 md:py-5">
       <div className="flex flex-row text-center justify-center">
         <p>Built using React and Tailwind.</p>
         <a
