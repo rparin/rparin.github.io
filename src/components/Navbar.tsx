@@ -2,22 +2,13 @@ import { NavLinks } from "@/constants/NavLinks";
 
 export default function Navbar() {
   const NavItems = NavLinks.map((data) => {
-    if (data?.url) {
-      return (
-        <li>
-          <a
-            className="text-xl"
-            href={data?.url}
-            target="_blank"
-            rel="noopener noreferrer">
-            {data.title}
-          </a>
-        </li>
-      );
-    }
     return (
-      <li>
-        <a className="text-xl" href={"#" + data.id}>
+      <li key={data.id}>
+        <a
+          className="text-xl"
+          href={data?.url ? data?.url : "#" + data.id}
+          target={data?.url ? "_blank" : undefined}
+          rel={data?.url ? "noopener noreferrer" : undefined}>
           {data.title}
         </a>
       </li>
