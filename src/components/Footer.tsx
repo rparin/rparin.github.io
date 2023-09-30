@@ -11,7 +11,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer">
           <Image
-            className="max-w-[1.5vh] dark:invert w-auto h-4"
+            className="max-w-[1.5vh] invert w-auto h-3/5"
             src={extLink}
             alt="External link to source code"
           />
