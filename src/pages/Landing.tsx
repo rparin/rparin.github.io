@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { HomeImages } from "@/constants/Images";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { AboutGen, AboutSent } from "@/constants/About";
 
 export default function Landing() {
   return (
@@ -13,6 +14,23 @@ export default function Landing() {
         <span className="text-base"> /&gt;</span>
       </a>
       <ThemeToggle className="fixed top-1 right-5 md:right-10 z-50 border-0 h-9 rounded-md px-3 md:h-11 md:px-8 bg-background hover:bg-background active:bg-accent dark:bg-background dark:hover:bg-background dark:active:bg-accent" />
+      <div className="absolute bottom-4 z-50 text-center w-full flex flex-col gap-1 md:gap-3">
+        <h1 className="text-3xl md:text-4xl leading-10 md:leading-[3rem] font-semibold">
+          {AboutGen.First} {AboutGen.Last}
+        </h1>
+        <h2 className="text-lg md:text-xl font-normal dark:font-light">
+          {AboutGen.titles}
+        </h2>
+        <h3 className="text-lg md:text-xl font-normal dark:font-light">
+          {AboutGen.sent}
+          <span className="font-normal dark:font-light"> {AboutSent[3]}</span>
+        </h3>
+        <a
+          href="mailto:r.parin070@gmail.com"
+          className="text-lg md:text-xl font-normal dark:font-light text-sky-500">
+          {AboutGen.email}
+        </a>
+      </div>
       <div className="h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40"></div>
       <Image
         className="h-[50vh] w-[60%] object-cover absolute z-30 right-0 opacity-80"
