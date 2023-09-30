@@ -14,7 +14,7 @@ const NavItems = {
   resume: {
     id: "resume",
     title: "Resume",
-    url: "",
+    url: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Resume.pdf",
   },
 };
 
@@ -34,6 +34,7 @@ const NavLinks = [
   {
     id: NavItems.resume.id,
     title: NavItems.resume.title,
+    url: NavItems.resume.url,
   },
 ];
 
