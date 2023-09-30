@@ -2,14 +2,17 @@ const NavItems = {
   projects: {
     id: "projects",
     title: "Projects",
+    url: undefined,
   },
   about: {
     id: "about",
     title: "About",
+    url: undefined,
   },
   contact: {
     id: "contact",
     title: "Contact",
+    url: undefined,
   },
   resume: {
     id: "resume",
@@ -18,24 +21,4 @@ const NavItems = {
   },
 };
 
-const NavLinks = [
-  {
-    id: NavItems.projects.id,
-    title: NavItems.projects.title,
-  },
-  {
-    id: NavItems.about.id,
-    title: NavItems.about.title,
-  },
-  {
-    id: NavItems.contact.id,
-    title: NavItems.contact.title,
-  },
-  {
-    id: NavItems.resume.id,
-    title: NavItems.resume.title,
-    url: NavItems.resume.url,
-  },
-];
-
-export { NavItems, NavLinks };
+export { NavItems };
