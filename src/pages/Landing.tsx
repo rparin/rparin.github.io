@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { HomeImages } from "@/constants/Images";
 import LandingAbout from "@/components/LandingAbout";
+import { NavHome, NavItems } from "@/constants/NavLinks";
 
 export default function Landing() {
   return (
     <>
-      <section id="home" className="relative">
+      <section id={NavHome.id} className="relative">
         <LandingAbout />
         <div className="h-[41vh] md:h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40 opacity-50"></div>
         <div className="h-[41vh] md:h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40"></div>
@@ -25,7 +26,7 @@ export default function Landing() {
           alt={HomeImages.bgR.alt}
         />
       </section>
-      <span id="projects"></span>
+      <span id={NavItems.projects.id}></span>
     </>
   );
 }
