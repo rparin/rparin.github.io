@@ -1,12 +1,12 @@
 import { AboutMe } from "@/constants/About";
 import { AboutImages } from "@/constants/Images";
-
+import { NavItems } from "@/constants/NavLinks";
 import Image from "next/image";
 
 export default function About() {
   return (
     <section
-      id="about"
+      id={NavItems.about.id}
       className="before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
       <div className="flex flex-col gap-10">
         <h3 className="text-base md:text-xl text-center font-normal">

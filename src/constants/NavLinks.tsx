@@ -21,4 +21,8 @@ const NavItems = {
   },
 };
 
-export { NavItems };
+const NavHome = {
+  id: "Home",
+};
+
+export { NavItems, NavHome };
