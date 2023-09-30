@@ -2,7 +2,7 @@ import { NavItems } from "@/constants/NavLinks";
 
 export default function Navbar() {
   const NavTags = [];
-  for (const [key, value] of Object.entries(NavItems)) {
+  for (const [k, value] of Object.entries(NavItems)) {
     NavTags.push(
       <li key={value.id}>
         <a
@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="sticky top-0 bg-background drop-shadow-lg z-10 ">
-        <ul className="flex flex-row gap-9 md:gap-12 md:justify-center py-5 ml-5 pr-5 overflow-y-auto">
+        <ul className="flex flex-row gap-9 md:gap-12 md:justify-center py-3 md:py-4 ml-5 pr-5 overflow-y-auto">
           {NavTags}
         </ul>
       </nav>
