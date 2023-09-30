@@ -1,9 +1,14 @@
-import landBg from "../assets/Landing/Red.png";
+import landBgR from "../assets/Landing/Red.png";
+import landBgP from "../assets/Landing/Purple.png";
 import landCode from "../assets/Landing/CodePy.png";
 
 const HomeImages = {
-  bg: {
-    img: landBg,
+  bgR: {
+    img: landBgR,
+    alt: "Landing page background",
+  },
+  bgP: {
+    img: landBgP,
     alt: "Landing page background",
   },
   code: {
