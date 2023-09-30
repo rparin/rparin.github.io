@@ -6,6 +6,7 @@ export default function Landing() {
   return (
     <section id="home" className="relative">
       <LandingAbout />
+      <div className="h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40 opacity-50"></div>
       <div className="h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40"></div>
       <Image
         className="h-[50vh] w-[60%] object-cover absolute z-30 right-0 opacity-80"
