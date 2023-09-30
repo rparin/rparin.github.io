@@ -4,7 +4,6 @@ import Project from "@/pages/Project";
 import Contact from "@/pages/Contact";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 export default function App() {
   return (
     <main className="bg-background text-text">

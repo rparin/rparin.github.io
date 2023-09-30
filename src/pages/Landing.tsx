@@ -10,7 +10,7 @@ export default function Landing() {
         href="#home"
         className="select-none flex gap-1 text-white md:text-black dark:text-white text-center text-lg md:text-xl absolute md:fixed top-2 left-5 md:left-10 z-50 px-2 hover:text-sky-400 active:text-accent dark:active:text-sky-400">
         <span className="text-base">&lt; </span>
-        RP
+        {AboutGen.Initials}
         <span className="text-base"> /&gt;</span>
       </a>
       <ThemeToggle className="absolute md:fixed top-1 right-5 md:right-10 z-50 border-0 h-9 rounded-md px-3 md:h-11 md:px-8 bg-background hover:bg-background active:bg-accent dark:bg-background dark:hover:bg-background dark:active:bg-accent" />
@@ -26,7 +26,7 @@ export default function Landing() {
           <span className="font-normal dark:font-light"> {AboutSent[3]}</span>
         </h3>
         <a
-          href="mailto:r.parin070@gmail.com"
+          href={"mailto:" + AboutGen.email}
           className="text-lg md:text-xl font-normal dark:font-light text-sky-500">
           {AboutGen.email}
         </a>

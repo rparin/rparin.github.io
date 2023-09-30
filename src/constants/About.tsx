@@ -1,4 +1,5 @@
 const AboutGen = {
+  Initials: "RP",
   First: "Ralph",
   Last: "Parin",
   email: "r.parin070@gmail.com",
