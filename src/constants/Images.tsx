@@ -1,6 +1,8 @@
 import landBgR from "../assets/Landing/Red.png";
 import landBgP from "../assets/Landing/Purple.png";
 import landCode from "../assets/Landing/CodePy.png";
+import gitIcon from "@icons/Github.svg";
+import linkedIcon from "@icons/LinkedIn.svg";
 
 const HomeImages = {
   bgR: {
@@ -17,4 +19,15 @@ const HomeImages = {
   },
 };
 
-export { HomeImages };
+const Icons = {
+  github: {
+    img: gitIcon,
+    alt: "Icon of Github logo",
+  },
+  linkedin: {
+    img: linkedIcon,
+    alt: "Icon of LinkedIn logo",
+  },
+};
+
+export { HomeImages, Icons };

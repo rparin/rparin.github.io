@@ -14,4 +14,9 @@ const AboutSent = [
   "learning new things",
 ];
 
-export { AboutGen, AboutSent };
+const Socials = {
+  github: "https://github.com/rparin",
+  linkedIn: "https://www.linkedin.com/in/rparin",
+};
+
+export { AboutGen, AboutSent, Socials };
