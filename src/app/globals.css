@@ -5,7 +5,8 @@
 /* Font sizes: Perfect Fourth */
 body,
 p,
-a {
+a,
+span {
   font-weight: 400;
 }
 
