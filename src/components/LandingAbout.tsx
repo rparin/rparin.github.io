@@ -1,6 +1,6 @@
-import { AboutGen, AboutSent, Socials } from "@/constants/About";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import Image from "next/image";
+import { AboutGen, AboutSent, Socials } from "@/constants/About";
 import { Icons } from "@/constants/Images";
 
 export default function LandingAbout() {
@@ -21,10 +21,10 @@ export default function LandingAbout() {
         <h2 className="text-lg md:text-xl font-normal dark:font-light">
           {AboutGen.titles}
         </h2>
-        <h3 className="text-lg md:text-xl font-normal dark:font-light">
+        <p className="text-lg md:text-xl font-normal dark:font-light">
           {AboutGen.sent}
           <span className="font-normal dark:font-light"> {AboutSent[3]}</span>
-        </h3>
+        </p>
 
         <div className="flex flex-row justify-center gap-3">
           <a

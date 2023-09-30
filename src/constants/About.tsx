@@ -19,4 +19,20 @@ const Socials = {
   linkedIn: "https://www.linkedin.com/in/rparin",
 };
 
-export { AboutGen, AboutSent, Socials };
+const AboutMe = {
+  Intro: "A little about me, my hobbies, interests, and goals",
+
+  Goals:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+  Hobbies:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+  Interests:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+  Gaming:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+};
+
+export { AboutGen, AboutSent, Socials, AboutMe };

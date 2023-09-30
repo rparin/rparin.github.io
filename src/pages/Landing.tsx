@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { HomeImages, Icons } from "@/constants/Images";
+import { HomeImages } from "@/constants/Images";
 import LandingAbout from "@/components/LandingAbout";
 
 export default function Landing() {
