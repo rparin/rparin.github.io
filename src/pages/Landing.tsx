@@ -7,7 +7,7 @@ export default function Landing() {
     <section id="home" className="relative">
       <a
         href="#home"
-        className=" select-none flex gap-1 text-center text-lg md:text-xl fixed top-2 left-5 md:left-10 z-50 px-3 hover:text-sky-400 active:text-accent dark:active:text-sky-400">
+        className="select-none flex gap-1 text-center text-lg md:text-xl fixed top-2 left-5 md:left-10 z-50 px-2 hover:text-sky-400 active:text-accent dark:active:text-sky-400">
         <span className="text-base">&lt; </span>
         RP
         <span className="text-base"> /&gt;</span>
@@ -20,9 +20,14 @@ export default function Landing() {
         alt={HomeImages.code.alt}
       />
       <Image
-        className="h-[50vh] w-[100%] object-cover"
-        src={HomeImages.bg.img}
-        alt={HomeImages.bg.alt}
+        className="dark:hidden h-[50vh] w-[100%] object-cover"
+        src={HomeImages.bgP.img}
+        alt={HomeImages.bgP.alt}
+      />
+      <Image
+        className="hidden dark:block h-[50vh] w-[100%] object-cover"
+        src={HomeImages.bgR.img}
+        alt={HomeImages.bgR.alt}
       />
     </section>
   );
