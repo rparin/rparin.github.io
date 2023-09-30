@@ -13,12 +13,12 @@ export default function Landing() {
         alt={HomeImages.code.alt}
       />
       <Image
-        className="dark:hidden h-[50vh] w-[100%] object-cover"
+        className="dark:hidden h-[50vh] w-[100%] object-cover saturate-150"
         src={HomeImages.bgP.img}
         alt={HomeImages.bgP.alt}
       />
       <Image
-        className="hidden dark:block h-[50vh] w-[100%] object-cover"
+        className="hidden dark:block h-[50vh] w-[100%] object-cover saturate-150"
         src={HomeImages.bgR.img}
         alt={HomeImages.bgR.alt}
       />
