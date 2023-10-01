@@ -53,15 +53,17 @@ small {
     --background: #fafafa;
     --primary: #a2d0fb;
     --secondary: #c3a4d6;
-    --accent: #f7cff2;
+    --accent: #f55ce0;
     --url: #0ea5e9;
+    --active: #f7cff2;
   }
   .dark {
     --text: #f0f0f0;
     --background: #1a1b22;
     --primary: #32435c;
     --secondary: #346a89;
-    --accent: #450a0a;
+    --accent: #dc2626;
     --url: #0ea5e9;
+    --active: #450a0a;
   }
 }

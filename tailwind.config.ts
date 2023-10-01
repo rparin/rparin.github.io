@@ -23,6 +23,7 @@ module.exports = {
         secondary: "var(--secondary)",
         accent: "var(--accent)",
         url: "var(--url)",
+        active: "var(--active)",
       },
       keyframes: {
         "accordion-down": {
