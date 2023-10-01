@@ -22,7 +22,7 @@ const NavItems = {
 };
 
 const NavHome = {
-  id: "Home",
+  id: "home",
 };
 
 export { NavItems, NavHome };

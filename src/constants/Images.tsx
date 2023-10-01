@@ -7,6 +7,7 @@ import AboutGame from "../assets/About/LaptopE.png";
 import AboutBook from "../assets/About/BookE.png";
 import gitIcon from "@icons/Github.svg";
 import linkedIcon from "@icons/LinkedIn.svg";
+import gmailIcon from "@icons/GMail.svg";
 
 const HomeImages = {
   bgR: {
@@ -50,6 +51,10 @@ const Icons = {
   linkedin: {
     img: linkedIcon,
     alt: "Icon of LinkedIn logo",
+  },
+  gmail: {
+    img: gmailIcon,
+    alt: "Icon of Gmail logo",
   },
 };
 
