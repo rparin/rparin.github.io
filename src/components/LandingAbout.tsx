@@ -8,7 +8,7 @@ export default function LandingAbout() {
     <>
       <a
         href="#home"
-        className="select-none flex gap-1 text-white md:text-black dark:text-white text-center text-lg md:text-xl absolute md:fixed top-2 left-5 md:left-10 z-50 px-2 hover:text-sky-400 active:text-accent dark:active:text-sky-400">
+        className="select-none flex gap-1 text-white md:text-black dark:text-white text-center text-lg md:text-xl absolute md:fixed top-2 left-5 md:left-10 z-50 px-2 hover:text-url active:text-accent dark:active:text-url">
         <span className="text-base">&lt; </span>
         {AboutGen.Initials}
         <span className="text-base"> /&gt;</span>
@@ -31,7 +31,7 @@ export default function LandingAbout() {
         <div className="flex flex-row justify-center gap-3">
           <a
             href={"mailto:" + AboutGen.email}
-            className="text-lg md:text-xl font-normal dark:font-light text-sky-500">
+            className="text-lg md:text-xl font-normal dark:font-light text-url">
             {AboutGen.email}
           </a>
           <a href={Socials.github} target="_blank" rel="noopener noreferrer">

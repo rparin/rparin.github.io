@@ -54,6 +54,7 @@ small {
     --primary: #c7c7c7;
     --secondary: #dbdbdb;
     --accent: #757575;
+    --url: #0ea5e9;
   }
   .dark {
     --text: #f0f0f0;
@@ -61,5 +62,6 @@ small {
     --primary: #383838;
     --secondary: #242424;
     --accent: #8a8a8a;
+    --url: #0ea5e9;
   }
 }
