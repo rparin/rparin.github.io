@@ -3,7 +3,7 @@ import extLink from "@icons/external-link.svg";
 
 export default function Footer() {
   return (
-    <footer className="text-center text-white bg-black py-3 md:py-5">
+    <footer className="text-center text-text bg-primary py-3 md:py-5">
       <div className="flex flex-row text-center justify-center">
         <p>Built using React and Tailwind.</p>
         <a
@@ -11,7 +11,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer">
           <Image
-            className="max-w-[1.5vh] invert w-auto h-3/5"
+            className="max-w-[1.5vh] invert-0 dark:invert w-auto h-3/5"
             src={extLink}
             alt="External link to source code"
           />
