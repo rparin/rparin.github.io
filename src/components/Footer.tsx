@@ -3,9 +3,9 @@ import extLink from "@icons/external-link.svg";
 
 export default function Footer() {
   return (
-    <footer className="text-center text-text bg-primary py-3 md:py-5">
+    <footer className="text-center text-text bg-primary py-3 md:py-3">
       <div className="flex flex-row text-center justify-center">
-        <p>Built using React and Tailwind.</p>
+        <p className="text-sm">Built using React and Tailwind.</p>
         <a
           href="https://github.com/rparin/rparin.github.io"
           target="_blank"
@@ -17,7 +17,7 @@ export default function Footer() {
           />
         </a>
       </div>
-      <p>©️ 2023. Designed by Ralph Parin.</p>
+      <p className="text-sm">©️ 2023. Designed by Ralph Parin.</p>
     </footer>
   );
 }

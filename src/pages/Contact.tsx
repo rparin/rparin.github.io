@@ -9,7 +9,7 @@ export default function Contact() {
       id={NavItems.contact.id}
       className="flex flex-col text-center before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
       <div className="min-h-[45vh]">
-        <h2 className="font-normal mt-10 text-3xl md:text-4xl">Get In Touch</h2>
+        <h2 className="font-normal mt-10 text-2xl md:text-3xl">Get In Touch</h2>
 
         <div className="flex flex-wrap justify-center items-center gap-6 mt-10">
           <a href={"mailto:" + AboutGen.email}>
@@ -36,20 +36,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <p className="mt-5 mb-5">
-        Thanks for visiting!
-        {/* Feel free to connect with me on
-        <a href={Socials.linkedIn} className="text-url">
-          {" "}
-          LinkedIn{" "}
-        </a>
-        and
-        <a href={Socials.github} className="text-url">
-          {" "}
-          Github
-        </a>
-        . */}
-      </p>
+      <p className="mt-3 mb-3">Thanks for visiting!</p>
     </section>
   );
 }
