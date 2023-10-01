@@ -36,7 +36,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <p className=" mb-5">
+      <p className="mt-5 mb-5">
         Thanks for visiting!
         {/* Feel free to connect with me on
         <a href={Socials.linkedIn} className="text-url">
