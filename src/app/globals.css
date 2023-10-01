@@ -67,3 +67,8 @@ small {
     --active: #450a0a;
   }
 }
+
+/* Enable Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
