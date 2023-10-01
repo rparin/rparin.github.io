@@ -51,17 +51,17 @@ small {
   :root {
     --text: #0f0f0f;
     --background: #fafafa;
-    --primary: #c7c7c7;
-    --secondary: #dbdbdb;
+    --primary: #a2d0fb;
+    --secondary: #d6b6e2;
     --accent: #757575;
     --url: #0ea5e9;
   }
   .dark {
     --text: #f0f0f0;
     --background: #1a1b22;
-    --primary: #383838;
-    --secondary: #242424;
-    --accent: #8a8a8a;
+    --primary: #32435c;
+    --secondary: #346a89;
+    --accent: #450a0a;
     --url: #0ea5e9;
   }
 }

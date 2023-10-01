@@ -14,15 +14,16 @@ const NavItems = {
     title: "Contact",
     url: undefined,
   },
-  resume: {
-    id: "resume",
-    title: "Resume",
-    url: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Resume.pdf",
-  },
 };
 
 const NavHome = {
   id: "home",
 };
 
-export { NavItems, NavHome };
+const Resume = {
+  id: "resume",
+  title: "Resume",
+  url: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Resume.pdf",
+};
+
+export { NavItems, NavHome, Resume };
