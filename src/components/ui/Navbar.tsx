@@ -7,9 +7,7 @@ export default function Navbar() {
   for (const [k, value] of Object.entries(NavItems)) {
     NavTags.push(
       <li key={value.id} className="mt-1">
-        <a className="text-xl" href={"#" + value.id}>
-          {value.title}
-        </a>
+        <a href={"#" + value.id}>{value.title}</a>
       </li>
     );
   }
@@ -17,16 +15,16 @@ export default function Navbar() {
   return (
     <>
       <nav className="sticky top-0 bg-background drop-shadow-lg z-10">
-        <ul className="flex flex-row gap-9 md:gap-11 md:justify-center py-3 md:py-4 ml-5 pr-5 overflow-y-auto">
+        <ul className="flex flex-row gap-7 md:gap-10 md:justify-center py-3 md:py-4 ml-5 pr-5 overflow-y-auto">
           {NavTags}
 
           <li>
-            <button className="text-text dark:text-text text-lg bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary">
+            <button className="text-text dark:text-text bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary">
               <a href={Resume.url} className="flex flex-row">
-                <span className="p-0 pt-1 pl-3 pr-3">Resume</span>
+                <span className="p-0 pt-1 pl-2 pr-2">Resume</span>
                 <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
-                    className=" w-10 h-10  sm:p-2 invert dark:invert-0"
+                    className=" w-8 h-8  sm:p-2 invert dark:invert-0"
                     src={Icons.download.img}
                     alt={Icons.download.alt}
                   />
