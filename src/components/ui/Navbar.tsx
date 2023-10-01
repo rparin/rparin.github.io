@@ -24,9 +24,9 @@ export default function Navbar() {
             <button className="text-text dark:text-text text-lg bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary">
               <a href={Resume.url} className="flex flex-row">
                 <span className="p-0 pt-1 pl-3 pr-3">Resume</span>
-                <div className="flex justify-end">
+                <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
-                    className="bg-secondary w-10 h-10 rounded-r-md sm:p-2"
+                    className=" w-10 h-10  sm:p-2 invert dark:invert-0"
                     src={Icons.download.img}
                     alt={Icons.download.alt}
                   />
