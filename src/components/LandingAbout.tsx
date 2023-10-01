@@ -8,7 +8,7 @@ export default function LandingAbout() {
     <>
       <a
         href="#home"
-        className="select-none flex gap-1 text-white md:text-black dark:text-white text-center absolute md:fixed top-3 left-5 md:left-10 z-50 px-2 hover:text-url active:text-accent dark:active:text-url">
+        className="select-none flex gap-1 text-white md:text-black dark:text-white text-center absolute md:fixed top-2.5 left-5 md:left-10 z-50 px-2 hover:text-url active:text-accent dark:active:text-url">
         &lt; {AboutGen.Initials} /&gt;
       </a>
 
