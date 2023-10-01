@@ -9,7 +9,7 @@ export default function Contact() {
       id={NavItems.contact.id}
       className="flex flex-col text-center before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
       <div className="min-h-[45vh]">
-        <h2 className=" font-normal mt-10">Get In Touch</h2>
+        <h2 className="font-normal mt-10 text-3xl md:text-4xl">Get In Touch</h2>
 
         <div className="flex flex-wrap justify-center items-center gap-6 mt-10">
           <a href={"mailto:" + AboutGen.email}>
