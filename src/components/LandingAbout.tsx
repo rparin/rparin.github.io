@@ -14,7 +14,7 @@ export default function LandingAbout() {
 
       <ThemeToggle className="absolute md:fixed top-1 right-5 md:right-10 z-50 border-0 h-9 rounded-md px-3 md:px-8 bg-background hover:bg-background active:bg-accent dark:bg-background dark:hover:bg-background dark:active:bg-accent" />
 
-      <div className="absolute bottom-4 z-50 text-center w-full flex flex-col gap-1 md:gap-3">
+      <div className="absolute bottom-1 z-50 text-center w-full flex flex-col gap-1 md:gap-2">
         <h1 className="text-2xl md:text-3xl leading-10 md:leading-[3rem] font-semibold">
           {AboutGen.First} {AboutGen.Last}
         </h1>
@@ -26,7 +26,7 @@ export default function LandingAbout() {
           <span className="font-normal dark:font-light"> {AboutSent[3]}</span>
         </p>
 
-        <div className="flex flex-row justify-center gap-3">
+        <div className="flex flex-row justify-center gap-2">
           <a
             href={"mailto:" + AboutGen.email}
             className="text-base font-normal dark:font-light text-url">
@@ -34,14 +34,14 @@ export default function LandingAbout() {
           </a>
           <a href={Socials.github} target="_blank" rel="noopener noreferrer">
             <Image
-              className="h-8 w-8 md:h-10 md:w-10 object-cover dark:invert"
+              className="h-8 w-8 object-cover dark:invert"
               src={Icons.github.img}
               alt={Icons.github.alt}
             />
           </a>
           <a href={Socials.linkedIn} target="_blank" rel="noopener noreferrer">
             <Image
-              className="h-8 w-8 md:h-10 md:w-10 object-cover"
+              className="h-8 w-8 object-cover"
               src={Icons.linkedin.img}
               alt={Icons.linkedin.alt}
             />
