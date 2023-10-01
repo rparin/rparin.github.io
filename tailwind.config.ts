@@ -52,6 +52,11 @@ module.exports = {
         normal: "400",
         bold: "700",
       },
+      zIndex: {
+        "60": "60",
+        "80": "80",
+        "100": "100",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
