@@ -14,8 +14,8 @@ export default function LandingAbout() {
 
       <ThemeToggle className="absolute md:fixed top-1 right-5 md:right-10 z-60 border-0 h-9 rounded-md px-3 md:px-8 bg-background hover:bg-background active:bg-accent dark:bg-background dark:hover:bg-background dark:active:bg-accent" />
 
-      <div className="absolute bottom-2 z-50 text-center w-full flex flex-col gap-1.5">
-        <h1 className="text-2xl md:text-3xl leading-10 font-semibold">
+      <div className="absolute bottom-2 z-50 text-center w-full flex flex-col gap-1 md:gap-1.5">
+        <h1 className="text-2xl md:text-3xl leading-7 md:leading-10 font-semibold">
           {AboutGen.First} {AboutGen.Last}
         </h1>
         <h2 className="text-base font-normal dark:font-light">
