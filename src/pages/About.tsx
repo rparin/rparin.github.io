@@ -1,7 +1,7 @@
 import { AboutMe } from "@/constants/About";
-import { AboutImages } from "@/constants/Images";
 import { NavItems } from "@/constants/NavLinks";
-import Image from "next/image";
+import { AboutImages } from "@/constants/Images";
+import { TextImage } from "@/components/TextImage";
 
 export default function About() {
   return (
@@ -13,16 +13,30 @@ export default function About() {
           <i>{AboutMe.Intro}</i>
         </h3>
 
-        <div className="relative flex justify-center">
-          <p className="absolute top-1/4 md:top-1/3 left-1/4 md:left-1/3 text-sm md:text-xl md:max-w-4xl bg-background rounded-lg p-2 lg:p-5">
-            {AboutMe.Goals}
-          </p>
-          <Image
-            className="max-h-96 w-auto"
-            src={AboutImages.code.img}
-            alt={AboutImages.code.alt}
-          />
-        </div>
+        <TextImage
+          variant={"left"}
+          text={AboutMe.Goals}
+          img={AboutImages.code.img}
+          alt={AboutImages.code.alt}
+        />
+        <TextImage
+          variant={"right"}
+          text={AboutMe.Hobbies}
+          img={AboutImages.book.img}
+          alt={AboutImages.book.alt}
+        />
+        <TextImage
+          variant={"left"}
+          text={AboutMe.Interests}
+          img={AboutImages.food.img}
+          alt={AboutImages.food.alt}
+        />
+        <TextImage
+          variant={"right"}
+          text={AboutMe.Gaming}
+          img={AboutImages.game.img}
+          alt={AboutImages.game.alt}
+        />
       </div>
     </section>
   );
