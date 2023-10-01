@@ -4,7 +4,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import Image, { StaticImageData } from "next/image";
 
 const TextImageVariants = cva(
-  "absolute bg-background rounded-lg  line-clamp-2 md:line-clamp-none top-1/4 md:top-1/3 p-2 md:p-5 text-sm md:text-xl md:max-w-lg lg:max-w-xl",
+  "absolute bg-background rounded-lg line-clamp-2 md:line-clamp-none top-1/4 md:top-1/3 p-2 md:p-3 text-sm md:text-base md:max-w-lg lg:max-w-xl",
   {
     variants: {
       variant: {
@@ -36,7 +36,7 @@ const TextImage = React.forwardRef<HTMLButtonElement, TextImageProps>(
           {text}
         </figcaption>
         <Image
-          className="max-h-56 md:max-h-64 lg:max-h-80 w-auto"
+          className="max-h-48 md:max-h-56 lg:max-h-64 w-auto"
           src={img}
           alt={alt}
         />
