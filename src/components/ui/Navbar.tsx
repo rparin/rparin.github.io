@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="sticky top-0 bg-background drop-shadow-lg z-10">
-        <ul className="flex flex-row gap-7 md:gap-10 md:justify-center py-3 md:py-4 ml-5 pr-5 overflow-y-auto">
+        <ul className="flex flex-row gap-7 md:gap-10 justify-center py-3 md:py-4 ml-5 pr-5 overflow-y-auto">
           {NavTags}
 
           <li>
@@ -24,7 +24,7 @@ export default function Navbar() {
                 <span className="p-0 pt-1 pl-2 pr-2">Resume</span>
                 <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
-                    className=" w-8 h-8  sm:p-2 invert dark:invert-0"
+                    className=" w-8 h-8 p-2 sm:p-1.5 invert dark:invert-0"
                     src={Icons.download.img}
                     alt={Icons.download.alt}
                   />
