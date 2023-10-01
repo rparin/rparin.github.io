@@ -24,7 +24,7 @@ export default function Navbar() {
                 <span className="p-0 pt-1 pl-2 pr-2">Resume</span>
                 <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
-                    className=" w-8 h-8 p-2 sm:p-1.5 invert dark:invert-0"
+                    className="w-8 h-8 p-2 sm:p-1.5 invert dark:invert-0"
                     src={Icons.download.img}
                     alt={Icons.download.alt}
                   />
