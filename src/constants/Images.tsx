@@ -8,6 +8,7 @@ import AboutBook from "../assets/About/BookE.png";
 import gitIcon from "@icons/Github.svg";
 import linkedIcon from "@icons/LinkedIn.svg";
 import gmailIcon from "@icons/GMail.svg";
+import dowloadIcon from "@icons/Download.svg";
 
 const HomeImages = {
   bgR: {
@@ -55,6 +56,10 @@ const Icons = {
   gmail: {
     img: gmailIcon,
     alt: "Icon of Gmail logo",
+  },
+  download: {
+    img: dowloadIcon,
+    alt: "Icon of download",
   },
 };
 
