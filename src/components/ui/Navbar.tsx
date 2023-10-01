@@ -21,7 +21,7 @@ export default function Navbar() {
           <li>
             <button className="text-text dark:text-text bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary">
               <a href={Resume.url} className="flex flex-row">
-                <span className="p-0 pt-1 pl-2 pr-2">Resume</span>
+                <span className="p-0 pt-1 pl-2 pr-2 pb-1">Resume</span>
                 <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
                     className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0"
