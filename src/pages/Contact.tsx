@@ -1,49 +1,42 @@
+import { AboutGen, Socials } from "@/constants/About";
+import { SocialIcons } from "@/constants/Icons";
+import { NavItems } from "@/constants/NavLinks";
 import Image from "next/image";
-import gitLogo from "../app/assets/logos/Contact/Github.svg";
-import inLogo from "../app/assets/logos/Contact/LinkedIn.svg";
-import gmailLogo from "../app/assets/logos/Contact/GMail.svg";
-
-const inInfo = {
-  href: "https://www.linkedin.com/in/rparin",
-  src: inLogo,
-  alt: "Linkedin Logo",
-};
-
-const gitInfo = {
-  href: "https://github.com/rparin",
-  src: gitLogo,
-  alt: "Github Logo",
-};
-
-const emailInfo = {
-  href: "mailto:r.parin070@gmail.com",
-  src: gmailLogo,
-  alt: "GMail Logo",
-};
 
 export default function Contact() {
-  const info = [inInfo, gitInfo, emailInfo];
-  var cInfos = [];
-  for (var i = 0; i < info.length; i++) {
-    cInfos.push(
-      <a href={info[i].href} target="_blank" rel="noopener noreferrer" key={i}>
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl hover:p-0"
-          src={info[i].src}
-          alt={info[i].alt}
-        />
-      </a>
-    );
-  }
   return (
     <section
-      id="contact"
-      className="flex min-h-[90vh] flex-col text-center justify-center items-center">
-      <h2>Contact Me</h2>
-      <p className="pb-1">Feel free to reach out! I don&apos;t bite.</p>
-      <div className="flex flex-wrap justify-center items-center gap-6 2xl:gap-0.5">
-        {cInfos}
+      id={NavItems.contact.id}
+      className="flex flex-col text-center before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
+      <div className="min-h-[45vh]">
+        <h2 className="font-normal mt-10 text-2xl md:text-3xl">Get In Touch</h2>
+
+        <div className="flex flex-wrap justify-center items-center gap-6 mt-10">
+          <a href={"mailto:" + AboutGen.email}>
+            <Image
+              className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0"
+              src={SocialIcons.gmail.img}
+              alt={SocialIcons.gmail.alt}
+            />
+          </a>
+          <a href={Socials.linkedIn} target="_blank" rel="noopener noreferrer">
+            <Image
+              className="max-h-[12vh] p-1 w-14  h-auto drop-shadow-xl hover:p-0"
+              src={SocialIcons.linkedin.img}
+              alt={SocialIcons.linkedin.alt}
+            />
+          </a>
+          <a href={Socials.github} target="_blank" rel="noopener noreferrer">
+            <Image
+              className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0 dark:invert"
+              src={SocialIcons.github.img}
+              alt={SocialIcons.github.alt}
+            />
+          </a>
+        </div>
       </div>
+
+      <p className="mt-3 mb-3">Thanks for visiting!</p>
     </section>
   );
 }
