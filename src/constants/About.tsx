@@ -20,19 +20,27 @@ const Socials = {
 };
 
 const AboutMe = {
-  Intro: "A little about me, my hobbies, interests, and goals",
+  Intro: "A little about me: my hobbies, interests, and goals.",
 
   Goals:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "The thrill of crafting with my hands led me to computer science, where I aspire to make a meaningful difference in the lives of others, whether through a useful digital tool or a fun game.",
+  GoalsSm:
+    "Crafting drove me to computer science to make a difference, via games or digital tools.",
 
   Hobbies:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "I cherish stories for the unique lessons they offer, particularly the no-happy-ending tales by my favorite author, Sugaru Miaki. They've taught me to embrace failure as a path to improvement.",
+  HobbiesSm:
+    "I enjoy reading for the lessons they offer. They've, taught me to overcome my regrets.",
 
   Interests:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "One of my passion lies in creating memorable moments with friends—whether it's trying new flavors at local eateries, embarking on food adventures, or exploring exciting new places together.",
+  InterestsSm:
+    "One hobby of mine includes trying new foods and sightseeing with friends.",
 
   Gaming:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Gaming with my friends has become my digital backyard, as life takes us on different paths and distances grow, this space keeps us connected.",
+  GamingSm:
+    "Gaming with friends is my digital backyard, keeping us close despite life's changes.",
 };
 
 export { AboutGen, AboutSent, Socials, AboutMe };

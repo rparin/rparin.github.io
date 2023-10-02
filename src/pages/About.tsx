@@ -16,24 +16,28 @@ export default function About() {
         <TextImage
           variant={"left"}
           text={AboutMe.Goals}
+          textSm={AboutMe.GoalsSm}
           img={AboutImages.code.img}
           alt={AboutImages.code.alt}
         />
         <TextImage
           variant={"right"}
           text={AboutMe.Hobbies}
+          textSm={AboutMe.HobbiesSm}
           img={AboutImages.book.img}
           alt={AboutImages.book.alt}
         />
         <TextImage
           variant={"left"}
           text={AboutMe.Interests}
+          textSm={AboutMe.InterestsSm}
           img={AboutImages.food.img}
           alt={AboutImages.food.alt}
         />
         <TextImage
           variant={"right"}
           text={AboutMe.Gaming}
+          textSm={AboutMe.GamingSm}
           img={AboutImages.game.img}
           alt={AboutImages.game.alt}
         />
