@@ -32,7 +32,12 @@ export default function PImage(project: pType) {
   }
 
   return (
-    <div className={project.span ? "relative col-span-2" : "relative"}>
+    <div
+      className={
+        project.span
+          ? "col-span-2 relative md:hover:overflow-y-auto"
+          : "relative md:hover:overflow-y-auto"
+      }>
       <a
         href={project.url}
         target={project.url ? "_blank" : undefined}

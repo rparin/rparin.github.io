@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Hide Scroll bar */
+/* * {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+} */
+
 /* Font sizes: Perfect Fourth */
 body,
 p,
