@@ -47,4 +47,6 @@ const TextImage = React.forwardRef<HTMLButtonElement, TextImageProps>(
   }
 );
 
+TextImage.displayName = "TextImage";
+
 export { TextImage, TextImageVariants };
