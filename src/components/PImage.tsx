@@ -18,11 +18,11 @@ export default function PImage(project: pType) {
 
   const demo_cn =
     "col-span-3 row-span-3 md:col-span-4 md:row-span-4 object-fill";
-  var demoDiv = (
+  var demoImage = (
     <Image className={demo_cn} src={project.img} alt={project.alt} />
   );
   if (demoOn && project.demo) {
-    demoDiv = (
+    demoImage = (
       <Image
         className={demo_cn}
         src={project.demo.img}
@@ -37,8 +37,8 @@ export default function PImage(project: pType) {
         href={project.url}
         target={project.url ? "_blank" : undefined}
         rel={project.url ? "noopener noreferrer" : undefined}>
-        <div className="  grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 absolute opacity-0 min-[320px]:hover:opacity-100 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md">
-          {demoDiv}
+        <div className="grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 absolute opacity-0 min-[320px]:hover:opacity-100 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md">
+          {demoImage}
           <div className="row-span-3 md:row-span-4 flex flex-col justify-start md:justify-center items-center mx-1 gap-2 overflow-y-auto max-h-24 md:max-h-none">
             {codeTags}
           </div>
