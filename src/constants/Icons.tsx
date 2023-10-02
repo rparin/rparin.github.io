@@ -23,7 +23,7 @@ import pandas from "@icons/Pandas.svg";
 import flask from "@icons/Flask.svg";
 import tensflow from "@icons/Tensorflow.svg";
 
-type Icon = {
+type Img = {
   img: StaticImageData;
   alt: string;
   invert?: boolean;
@@ -132,4 +132,4 @@ const CodeIcons = {
 };
 
 export { MiscIcons, CodeIcons, SocialIcons };
-export type { Icon };
+export type { Img };
