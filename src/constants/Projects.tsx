@@ -1,5 +1,7 @@
+import { StaticImageData } from "next/image";
 import { Img } from "./Icons";
 import { CodeIcons as ci } from "./Icons";
+
 import CTMap from "@project/CTMap.png";
 import FViewer from "@project/FViewer.png";
 import GCalc from "@project/GCalc.png";
@@ -8,7 +10,6 @@ import SSearch from "@project/Search.png";
 import STracker from "@project/Sleep Tracker.png";
 import Sudoku from "@project/Sudoku.png";
 import TEditor from "@project/TextEditor.png";
-import { StaticImageData } from "next/image";
 
 import SSdemo from "@demo/Search.gif";
 import CTDemo from "@demo/CTMap.gif";
