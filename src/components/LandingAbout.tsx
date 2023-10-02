@@ -1,7 +1,7 @@
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import Image from "next/image";
 import { AboutGen, AboutSent, Socials } from "@/constants/About";
-import { Icons } from "@/constants/Images";
+import { SocialIcons } from "@/constants/Icons";
 
 export default function LandingAbout() {
   return (
@@ -35,15 +35,15 @@ export default function LandingAbout() {
           <a href={Socials.github} target="_blank" rel="noopener noreferrer">
             <Image
               className="h-8 w-8 object-cover dark:invert"
-              src={Icons.github.img}
-              alt={Icons.github.alt}
+              src={SocialIcons.github.img}
+              alt={SocialIcons.github.alt}
             />
           </a>
           <a href={Socials.linkedIn} target="_blank" rel="noopener noreferrer">
             <Image
               className="h-8 w-8 object-cover"
-              src={Icons.linkedin.img}
-              alt={Icons.linkedin.alt}
+              src={SocialIcons.linkedin.img}
+              alt={SocialIcons.linkedin.alt}
             />
           </a>
         </div>
