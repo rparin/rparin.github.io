@@ -1,72 +1,45 @@
-import cppLogo from "../app/assets/logos/Cpp.svg";
-import pyLogo from "../app/assets/logos/Python.svg";
-import javaLogo from "../app/assets/logos/Java.svg";
-import htmlLogo from "../app/assets/logos/HTML.svg";
-import cssLogo from "../app/assets/logos/CSS.svg";
-import jsLogo from "../app/assets/logos/JS.svg";
-import tsLogo from "../app/assets/logos/TS.svg";
-import Image from "next/image";
+import { AboutMe } from "@/constants/About";
+import { NavItems } from "@/constants/NavLinks";
+import { AboutImages } from "@/constants/Images";
+import { TextImage } from "@/components/TextImage";
 
 export default function About() {
   return (
     <section
-      id="about"
-      className="before:content-[''] before:h-10 before:block 2xl:before:h-32 flex min-h-screen flex-col">
-      <h2 className="text-center">About Me</h2>
-      <p className="text-left mx-10 md:mx-44 2xl:mx-96 2xl:px-44 mb-5 2xl:mb-24">
-        I&apos;m currently a student at University of California, Irvine
-        majoring in computer science.
-        <br />
-        <br />
-        I found my passion of coding through automation. At a young age I
-        learned that various tedious things can be done in seconds, things like
-        renaming files and converting files. From there I learned the potential
-        of computer science and decided to pursue the field to see what else it
-        holds.
-        <br />
-        <br />
-        When I am not creating a script or program to make my life easier, I am
-        usually on Youtube watching videos about the latest and coolest tech.
-        When there are no videos to watch I usually play Overwatch, or learn
-        something new. Some things I learned aside from coding is Photoshop,
-        Illustrator, After Effects, Aegisub and many other creator tools.
-      </p>
-      <h3 className="text-center">Skills</h3>
-      <div className="flex flex-wrap justify-center items-center gap-7 2xl:gap-0.5 mx-3">
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={cppLogo}
-          alt="C++ logo"
+      id={NavItems.about.id}
+      className="before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
+      <div className="flex flex-col gap-10">
+        <h3 className="text-base md:text-lg text-center font-normal">
+          <i>{AboutMe.Intro}</i>
+        </h3>
+
+        <TextImage
+          variant={"left"}
+          text={AboutMe.Goals}
+          textSm={AboutMe.GoalsSm}
+          img={AboutImages.code.img}
+          alt={AboutImages.code.alt}
         />
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={pyLogo}
-          alt="Python logo"
+        <TextImage
+          variant={"right"}
+          text={AboutMe.Hobbies}
+          textSm={AboutMe.HobbiesSm}
+          img={AboutImages.book.img}
+          alt={AboutImages.book.alt}
         />
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={javaLogo}
-          alt="Java logo"
+        <TextImage
+          variant={"left"}
+          text={AboutMe.Interests}
+          textSm={AboutMe.InterestsSm}
+          img={AboutImages.food.img}
+          alt={AboutImages.food.alt}
         />
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={htmlLogo}
-          alt="HTML logo"
-        />
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={cssLogo}
-          alt="CSS logo"
-        />
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={jsLogo}
-          alt="Javascript logo"
-        />
-        <Image
-          className="max-h-[12vh] p-1 w-14 2xl:w-52 2xl:p-4 h-auto drop-shadow-xl "
-          src={tsLogo}
-          alt="Typescript logo"
+        <TextImage
+          variant={"right"}
+          text={AboutMe.Gaming}
+          textSm={AboutMe.GamingSm}
+          img={AboutImages.game.img}
+          alt={AboutImages.game.alt}
         />
       </div>
     </section>
