@@ -22,18 +22,20 @@ export interface TextImageProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof TextImageVariants> {
   text: string;
+  textSm?: string;
   img: StaticImageData;
   alt: string;
 }
 
 const TextImage = React.forwardRef<HTMLButtonElement, TextImageProps>(
-  ({ className, variant, text, img, alt }, ref) => {
+  ({ className, variant, text, textSm, img, alt }, ref) => {
     return (
       <figure
         ref={ref}
         className={cn("relative flex justify-center", className)}>
         <figcaption className={cn(TextImageVariants({ variant }))}>
-          {text}
+          <span className="hidden md:block">{text}</span>
+          <span className="md:hidden">{textSm}</span>
         </figcaption>
         <Image
           className="max-h-48 md:max-h-56 lg:max-h-64 w-auto"
