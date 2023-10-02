@@ -5,10 +5,6 @@ import AboutCode from "../assets/About/CodeE.png";
 import AboutFood from "../assets/About/FoodE.png";
 import AboutGame from "../assets/About/LaptopE.png";
 import AboutBook from "../assets/About/BookE.png";
-import gitIcon from "@icons/Github.svg";
-import linkedIcon from "@icons/LinkedIn.svg";
-import gmailIcon from "@icons/GMail.svg";
-import dowloadIcon from "@icons/Download.svg";
 
 const HomeImages = {
   bgR: {
@@ -44,23 +40,4 @@ const AboutImages = {
   },
 };
 
-const Icons = {
-  github: {
-    img: gitIcon,
-    alt: "Icon of Github logo",
-  },
-  linkedin: {
-    img: linkedIcon,
-    alt: "Icon of LinkedIn logo",
-  },
-  gmail: {
-    img: gmailIcon,
-    alt: "Icon of Gmail logo",
-  },
-  download: {
-    img: dowloadIcon,
-    alt: "Icon of download",
-  },
-};
-
-export { HomeImages, AboutImages, Icons };
+export { HomeImages, AboutImages };

@@ -1,6 +1,6 @@
 import { NavItems, Resume } from "@/constants/NavLinks";
 import Image from "next/image";
-import { Icons } from "@/constants/Images";
+import { MiscIcons } from "@/constants/Icons";
 
 export default function Navbar() {
   const NavTags = [];
@@ -25,8 +25,8 @@ export default function Navbar() {
                 <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
                     className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0"
-                    src={Icons.download.img}
-                    alt={Icons.download.alt}
+                    src={MiscIcons.download.img}
+                    alt={MiscIcons.download.alt}
                   />
                 </div>
               </a>

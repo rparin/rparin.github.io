@@ -1,42 +1,54 @@
+import { Icon } from "./Icons";
+import { CodeIcons as ci } from "./Icons";
 import CTMap from "@project/CTMap.png";
 import FViewer from "@project/FViewer.png";
 import GCalc from "@project/GCalc.png";
 import PPSim from "@project/PreyPredSim.png";
 import SSearch from "@project/Search.png";
-import STrackerM from "@project/Sleep Tracker M.png";
 import STracker from "@project/Sleep Tracker.png";
 import Sudoku from "@project/Sudoku.png";
 import TEditor from "@project/TextEditor.png";
+import { StaticImageData } from "next/image";
 
-const ProjectImages = {
+type pType = {
+  name: string;
+  img: StaticImageData;
+  alt: string;
+  span?: boolean;
+  url?: string;
+  icons: Array<Icon>;
+};
+
+const Projects = {
   CTMap: {
     name: "Clinical Trials Map",
     img: CTMap,
     alt: "Clinical Trials Map App Screenshot",
     span: true,
     url: "https://github.com/rparin/CTMap",
+    icons: [ci.react, ci.nodejs, ci.tailwind, ci.ts],
   },
   STracker: {
     name: "Sleep Tracker",
     img: STracker,
-    imgM: STrackerM,
     alt: "Sleep Tracker App Screenshot",
     span: true,
     url: "https://github.com/rparin/Sleep-Tracker",
+    icons: [ci.angular, ci.fbase, ci.ionic],
   },
   Sudoku: {
     name: "Sudoku",
     img: Sudoku,
     alt: "Sudoku Help Menu Screenshot",
-    span: false,
     url: "https://github.com/rparin/Sudoku",
+    icons: [ci.python, ci.pygame],
   },
   PPSim: {
     name: "Prey Predator Sim",
     img: PPSim,
     alt: "Prey Predator Simulation Screenshot",
-    span: false,
     url: undefined,
+    icons: [ci.cpp, ci.sfml],
   },
   FViewer: {
     name: "Font Viewer",
@@ -44,6 +56,7 @@ const ProjectImages = {
     alt: "Font Viewer App Screenshot",
     span: true,
     url: "https://github.com/rparin/Font-Viewer",
+    icons: [ci.angular, ci.fbase, ci.tensflow],
   },
   GCalc: {
     name: "Graphing Calculator",
@@ -51,13 +64,14 @@ const ProjectImages = {
     alt: "Graphing Calculator App Screenshot",
     span: true,
     url: "https://github.com/rparin/Graphing-Calculator",
+    icons: [ci.cpp, ci.sfml],
   },
   TEditor: {
     name: "Text Editor",
     img: TEditor,
     alt: "Text Editor Screenshot",
-    span: false,
     url: "https://github.com/rparin/JText-Editor",
+    icons: [ci.java],
   },
   SSearch: {
     name: "Search Engine",
@@ -65,18 +79,21 @@ const ProjectImages = {
     alt: "Search App Screenshot",
     span: true,
     url: "https://github.com/rparin/StellerSearch",
+    icons: [ci.python, ci.openai, ci.flask, ci.pandas],
   },
 };
 
-const ProjectItems = [
-  ProjectImages.CTMap,
-  ProjectImages.STracker,
-  ProjectImages.Sudoku,
-  ProjectImages.PPSim,
-  ProjectImages.SSearch,
-  ProjectImages.GCalc,
-  ProjectImages.FViewer,
-  ProjectImages.TEditor,
+// Items will be displayed based on array order
+const ProjectItems: Array<pType> = [
+  Projects.CTMap,
+  Projects.STracker,
+  Projects.Sudoku,
+  Projects.PPSim,
+  Projects.SSearch,
+  Projects.GCalc,
+  Projects.FViewer,
+  Projects.TEditor,
 ];
 
-export { ProjectImages, ProjectItems };
+export { Projects, ProjectItems };
+export type { pType };

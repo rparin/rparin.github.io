@@ -1,5 +1,5 @@
 import { AboutGen, Socials } from "@/constants/About";
-import { Icons } from "@/constants/Images";
+import { SocialIcons } from "@/constants/Icons";
 import { NavItems } from "@/constants/NavLinks";
 import Image from "next/image";
 
@@ -15,22 +15,22 @@ export default function Contact() {
           <a href={"mailto:" + AboutGen.email}>
             <Image
               className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0"
-              src={Icons.gmail.img}
-              alt={Icons.gmail.alt}
+              src={SocialIcons.gmail.img}
+              alt={SocialIcons.gmail.alt}
             />
           </a>
           <a href={Socials.linkedIn} target="_blank" rel="noopener noreferrer">
             <Image
               className="max-h-[12vh] p-1 w-14  h-auto drop-shadow-xl hover:p-0"
-              src={Icons.linkedin.img}
-              alt={Icons.linkedin.alt}
+              src={SocialIcons.linkedin.img}
+              alt={SocialIcons.linkedin.alt}
             />
           </a>
           <a href={Socials.github} target="_blank" rel="noopener noreferrer">
             <Image
               className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0 dark:invert"
-              src={Icons.github.img}
-              alt={Icons.github.alt}
+              src={SocialIcons.github.img}
+              alt={SocialIcons.github.alt}
             />
           </a>
         </div>
