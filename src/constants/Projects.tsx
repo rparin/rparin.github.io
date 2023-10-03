@@ -36,7 +36,7 @@ const Projects = {
     alt: "Clinical Trials Map App Screenshot",
     span: true,
     url: "https://github.com/rparin/CTMap",
-    icons: [ci.react, ci.nodejs, ci.tailwind, ci.ts],
+    icons: [ci.react, ci.nodejs, ci.tailwind, ci.ts, ci.html],
     demo: {
       img: CTDemo,
       alt: "Demo of Clinical Trials Map",
@@ -48,7 +48,7 @@ const Projects = {
     alt: "Sleep Tracker App Screenshot",
     span: true,
     url: "https://github.com/rparin/Sleep-Tracker",
-    icons: [ci.angular, ci.fbase, ci.ionic],
+    icons: [ci.angular, ci.fbase, ci.ionic, ci.html, ci.css, ci.ts],
   },
   Sudoku: {
     name: "Sudoku",
@@ -78,7 +78,7 @@ const Projects = {
     alt: "Font Viewer App Screenshot",
     span: true,
     url: "https://github.com/rparin/Font-Viewer",
-    icons: [ci.angular, ci.fbase, ci.tensflow],
+    icons: [ci.angular, ci.fbase, ci.tensflow, ci.html, ci.css, ci.ts],
     demo: {
       img: FViewerDemo,
       alt: "Demo of Font Viewer Application",
@@ -113,7 +113,16 @@ const Projects = {
     alt: "Search App Screenshot",
     span: true,
     url: "https://github.com/rparin/StellerSearch",
-    icons: [ci.python, ci.openai, ci.flask, ci.pandas],
+    icons: [
+      ci.python,
+      ci.openai,
+      ci.flask,
+      ci.pandas,
+      ci.html,
+      ci.css,
+      ci.html,
+      ci.js,
+    ],
     demo: {
       img: SSdemo,
       alt: "Demo of search engine",
