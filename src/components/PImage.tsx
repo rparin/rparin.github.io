@@ -42,9 +42,9 @@ export default function PImage(project: pType) {
         href={project.url}
         target={project.url ? "_blank" : undefined}
         rel={project.url ? "noopener noreferrer" : undefined}>
-        <div className="absolute hidden group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md">
+        <div className="absolute hidden group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
           {demoImage}
-          <div className="row-span-3 md:row-span-4 flex flex-col justify-start md:justify-center items-center mx-1 gap-2 overflow-y-auto max-h-24 md:max-h-none">
+          <div className="row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
             {codeTags}
           </div>
           <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-2 truncate">
