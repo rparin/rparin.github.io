@@ -113,16 +113,7 @@ const Projects = {
     alt: "Search App Screenshot",
     span: true,
     url: "https://github.com/rparin/StellerSearch",
-    icons: [
-      ci.python,
-      ci.openai,
-      ci.flask,
-      ci.pandas,
-      ci.html,
-      ci.css,
-      ci.html,
-      ci.js,
-    ],
+    icons: [ci.python, ci.openai, ci.flask, ci.pandas, ci.html, ci.css, ci.js],
     demo: {
       img: SSdemo,
       alt: "Demo of search engine",
