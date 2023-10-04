@@ -40,7 +40,7 @@ const AboutMe = {
   Gaming:
     "Gaming with my friends has become my digital backyard, as life takes us on different paths and distances grow, this space keeps us connected.",
   GamingSm:
-    "Gaming with friends is my digital backyard, keeping us close despite life's changes.",
+    "Gaming with friends is my digital backyard, keeping me close despite life's changes.",
 };
 
 export { AboutGen, AboutSent, Socials, AboutMe };

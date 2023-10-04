@@ -1,10 +1,10 @@
 import landBgR from "../assets/Landing/Red.svg";
 import landBgP from "../assets/Landing/Purple.svg";
 import landCode from "../assets/Landing/CodePy.webp";
-import AboutCode from "../assets/About/CodeE.png";
-import AboutFood from "../assets/About/FoodE.png";
-import AboutGame from "../assets/About/LaptopE.png";
-import AboutBook from "../assets/About/BookE.png";
+import AboutCode from "../assets/About/CodeE.webp";
+import AboutFood from "../assets/About/FoodE.webp";
+import AboutGame from "../assets/About/LaptopE.webp";
+import AboutBook from "../assets/About/BookE.webp";
 
 const HomeImages = {
   bgR: {
