@@ -2,14 +2,14 @@ import { StaticImageData } from "next/image";
 import { Img } from "./Icons";
 import { CodeIcons as ci } from "./Icons";
 
-import CTMap from "@project/CTMap.png";
-import FViewer from "@project/FViewer.png";
-import GCalc from "@project/GCalc.png";
-import PPSim from "@project/PreyPredSim.png";
-import SSearch from "@project/Search.png";
-import STracker from "@project/Sleep Tracker.png";
-import Sudoku from "@project/Sudoku.png";
-import TEditor from "@project/TextEditor.png";
+import CTMap from "@project/CTMap.webp";
+import FViewer from "@project/FViewer.webp";
+import GCalc from "@project/GCalc.webp";
+import PPSim from "@project/PreyPredSim.webp";
+import SSearch from "@project/Search.webp";
+import STracker from "@project/Sleep Tracker.webp";
+import Sudoku from "@project/Sudoku.webp";
+import TEditor from "@project/TextEditor.webp";
 
 import SSdemo from "@demo/Search.gif";
 import CTDemo from "@demo/CTMap.gif";
