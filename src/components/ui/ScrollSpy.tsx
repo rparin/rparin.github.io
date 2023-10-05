@@ -12,38 +12,32 @@ export default function ScrollSpy({
   const navRefs: MutableRefObject<HTMLElement>[] = [];
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const sections: React.JSX.Element[] = [];
-  const myRefs = useRef([]);
 
-  for (let index = 0; index < children.length; index++) {
-    const child = children[index];
-    if (index == 0) {
-      navRefs.push(myRefs.current[index]);
-      navIndex[index] = "";
-      sections.push(<div key="__" ref={myRefs.current[index]}></div>);
-    }
+  children.map((child, index) => {
+    // if (index == 0) {
+    //   const temp = useRef<any>(null);
+    //   navRefs.push(temp);
+    //   navIndex[index] = "";
+    //   sections.push(<div key="__" ref={temp}></div>);
+    // }
 
-    navRefs.push(myRefs.current[index + 1]);
+    const hRef = useRef<any>(null);
+    // navRefs.push(hRef);
     navIndex[index + 1] = child.props.id;
-    sections.push(
-      <child.type
-        {...child.props}
-        key={index + child.props.id}
-        ref={myRefs.current[index + 1]}
-      />
-    );
-  }
+    sections.push(<child.type {...child.props} key={index + child.props.id} />);
+  });
 
-  useEffect(() => {
-    const handleScroll = (e: Event) => {
-      var index = nearestIndex(window.scrollY, navRefs, 0, navRefs.length - 1);
-      setActiveIndex(index);
-    };
+  // useEffect(() => {
+  //   const handleScroll = (e: Event) => {
+  //     var index = nearestIndex(window.scrollY, navRefs, 0, navRefs.length - 1);
+  //     setActiveIndex(index);
+  //   };
 
-    document.addEventListener("scroll", handleScroll);
-    return () => {
-      document.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   document.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     document.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   const nv = React.cloneElement(navbar, { activeId: navIndex[activeIndex] });
 
