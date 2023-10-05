@@ -13,7 +13,8 @@ export default function ScrollSpy({
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const sections: React.JSX.Element[] = [];
 
-  children.map((child, index) => {
+  for (let index = 0; index < children.length; index++) {
+    const child = children[index];
     if (index == 0) {
       const temp = useRef<any>(null);
       navRefs.push(temp);
@@ -27,7 +28,7 @@ export default function ScrollSpy({
     sections.push(
       <child.type {...child.props} key={index + child.props.id} ref={hRef} />
     );
-  });
+  }
 
   useEffect(() => {
     const handleScroll = (e: Event) => {
