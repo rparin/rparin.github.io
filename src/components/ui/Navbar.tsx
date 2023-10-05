@@ -1,20 +1,31 @@
-import { NavItems, Resume } from "@/constants/NavLinks";
+"use client";
+
+import React from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import { NavItems, Resume } from "@/constants/NavLinks";
 import { MiscIcons } from "@/constants/Icons";
 
 export default function Navbar({ activeId }: { activeId?: string }) {
-  const NavTags = [];
-  for (const [k, value] of Object.entries(NavItems)) {
-    NavTags.push(
-      <li key={value.id} className="mt-1">
-        <a
-          href={"#" + value.id}
-          className={activeId == value.id ? "text-accent" : ""}>
-          {value.title}
-        </a>
-      </li>
-    );
-  }
+  const [NavTags, setNavTags] = useState<React.ReactElement[]>([]);
+
+  useEffect(() => {
+    const nTags: React.ReactElement[] = [];
+
+    for (const [k, value] of Object.entries(NavItems)) {
+      nTags.push(
+        <li key={value.id} className="mt-1">
+          <a
+            href={"#" + value.id}
+            className={activeId == value.id ? "text-accent" : ""}>
+            {value.title}
+          </a>
+        </li>
+      );
+    }
+
+    setNavTags(nTags);
+  }, [activeId]);
 
   return (
     <>
