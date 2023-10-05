@@ -20,12 +20,7 @@ export default function ScrollSpy({
   };
 
   children.map((child, index) => {
-    if (index == 0) {
-      navIndex[index] = "";
-      sections.push(<div key="__" ref={addToRefs}></div>);
-    }
-
-    navIndex[index + 1] = child.props.id;
+    navIndex[index] = child.props.id;
     sections.push(
       <child.type
         {...child.props}
@@ -34,6 +29,8 @@ export default function ScrollSpy({
       />
     );
   });
+
+  console.log(navIndex);
 
   useEffect(() => {
     const handleScroll = (e: Event) => {
