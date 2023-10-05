@@ -30,8 +30,6 @@ export default function ScrollSpy({
     );
   });
 
-  console.log(navIndex);
-
   useEffect(() => {
     const handleScroll = (e: Event) => {
       var index = nearestIndex(
