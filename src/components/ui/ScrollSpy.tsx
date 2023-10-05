@@ -7,9 +7,10 @@ export default function ScrollSpy({
   navbar: React.ReactElement;
   children: React.ReactElement[];
 }) {
-  const sections = children.map((child) => {
-    return <child.type {...child.props} />;
+  const sections = children.map((child, index) => {
+    return <child.type key={index + child.props.id} {...child.props} />;
   });
+
   return (
     <>
       {navbar}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { HomeImages } from "@/constants/Images";
 import LandingAbout from "@/components/LandingAbout";
-import { NavHome, NavItems } from "@/constants/NavLinks";
+import { NavHome } from "@/constants/NavLinks";
 
 export default function Landing() {
   return (
@@ -26,7 +26,6 @@ export default function Landing() {
           alt={HomeImages.bgR.alt}
         />
       </section>
-      <span id={NavItems.projects.id}></span>
     </>
   );
 }
