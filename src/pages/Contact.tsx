@@ -1,12 +1,11 @@
 import { AboutGen, Socials } from "@/constants/About";
 import { SocialIcons } from "@/constants/Icons";
-import { NavItems } from "@/constants/NavLinks";
 import Image from "next/image";
 
-export default function Contact() {
+export default function Contact({ id }: { id: string }) {
   return (
     <section
-      id={NavItems.contact.id}
+      id={id}
       className="flex flex-col text-center before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
       <div className="min-h-[45vh]">
         <h2 className="font-normal mt-10 text-2xl md:text-3xl">Get In Touch</h2>

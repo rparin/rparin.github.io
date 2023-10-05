@@ -2,12 +2,16 @@ import { NavItems, Resume } from "@/constants/NavLinks";
 import Image from "next/image";
 import { MiscIcons } from "@/constants/Icons";
 
-export default function Navbar() {
+export default function Navbar({ activeId }: { activeId?: string }) {
   const NavTags = [];
   for (const [k, value] of Object.entries(NavItems)) {
     NavTags.push(
       <li key={value.id} className="mt-1">
-        <a href={"#" + value.id}>{value.title}</a>
+        <a
+          href={"#" + value.id}
+          className={activeId == value.id ? "text-accent" : ""}>
+          {value.title}
+        </a>
       </li>
     );
   }
@@ -21,7 +25,7 @@ export default function Navbar() {
           <li>
             <button className="text-text dark:text-text bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary">
               <a href={Resume.url} className="flex flex-row">
-                <span className="p-0 pt-1 pl-2 pr-2 pb-1">Resume</span>
+                <span className="p-0 pt-1 pl-2 pr-2 pb-1">{Resume.title}</span>
                 <div className="flex justify-end bg-secondary rounded-r-md">
                   <Image
                     className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0"

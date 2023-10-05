@@ -1,12 +1,11 @@
 import { AboutMe } from "@/constants/About";
-import { NavItems } from "@/constants/NavLinks";
 import { AboutImages } from "@/constants/Images";
 import { TextImage } from "@/components/TextImage";
 
-export default function About() {
+export default function About({ id }: { id: string }) {
   return (
     <section
-      id={NavItems.about.id}
+      id={id}
       className="before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
       <div className="flex flex-col gap-10">
         <h3 className="text-base md:text-lg text-center font-normal">
