@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
+import { Dictionary } from "@/lib/utils";
 
 export default function ScrollSpy({
   navbar,
@@ -8,12 +9,12 @@ export default function ScrollSpy({
   navbar: React.ReactElement;
   children: React.ReactElement[];
 }) {
-  const navIndex: any = {};
+  const navIndex: Dictionary<string> = {};
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const sections: React.JSX.Element[] = [];
-  const navRefs = useRef<Array<HTMLDivElement>>([]);
+  const navRefs = useRef<Array<HTMLElement>>([]);
 
-  const addToRefs = (el: HTMLDivElement) => {
+  const addToRefs = (el: HTMLElement) => {
     if (el && !navRefs.current.includes(el)) {
       navRefs.current.push(el);
     }
@@ -66,7 +67,7 @@ export default function ScrollSpy({
  */
 const nearestIndex = (
   currentPosition: number,
-  sectionPositionArray: Array<HTMLDivElement>,
+  sectionPositionArray: Array<HTMLElement>,
   startIndex: number,
   endIndex: number
 ): number => {
