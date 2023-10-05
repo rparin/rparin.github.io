@@ -21,7 +21,7 @@ export default function ScrollSpy({
     //   sections.push(<div key="__" ref={temp}></div>);
     // }
 
-    const hRef = useRef<any>(null);
+    // const hRef = useRef<any>(null);
     // navRefs.push(hRef);
     navIndex[index + 1] = child.props.id;
     sections.push(<child.type {...child.props} key={index + child.props.id} />);
