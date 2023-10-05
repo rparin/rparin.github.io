@@ -11,12 +11,20 @@ export default function ScrollSpy({
   const navIndex: any = {};
   const navRefs: MutableRefObject<HTMLElement>[] = [];
   const [activeIndex, setActiveIndex] = useState<number>(0);
+  const sections: React.JSX.Element[] = [];
 
-  const sections = children.map((child, index) => {
+  children.map((child, index) => {
+    if (index == 0) {
+      const temp = useRef<any>(null);
+      navRefs.push(temp);
+      navIndex[index] = "";
+      sections.push(<div key="__" ref={temp}></div>);
+    }
+
     const hRef = useRef<any>(null);
     navRefs.push(hRef);
-    navIndex[index] = child.props.id;
-    return (
+    navIndex[index + 1] = child.props.id;
+    sections.push(
       <child.type {...child.props} key={index + child.props.id} ref={hRef} />
     );
   });
@@ -26,6 +34,7 @@ export default function ScrollSpy({
       var index = nearestIndex(window.scrollY, navRefs, 0, navRefs.length - 1);
       setActiveIndex(index);
     };
+
     document.addEventListener("scroll", handleScroll);
     return () => {
       document.removeEventListener("scroll", handleScroll);
