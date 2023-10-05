@@ -9,35 +9,48 @@ export default function ScrollSpy({
   children: React.ReactElement[];
 }) {
   const navIndex: any = {};
-  const navRefs: MutableRefObject<HTMLElement>[] = [];
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const sections: React.JSX.Element[] = [];
+  const navRefs = useRef<Array<HTMLDivElement>>([]);
+
+  const addToRefs = (el: HTMLDivElement) => {
+    if (el && !navRefs.current.includes(el)) {
+      navRefs.current.push(el);
+    }
+  };
 
   children.map((child, index) => {
-    // if (index == 0) {
-    //   const temp = useRef<any>(null);
-    //   navRefs.push(temp);
-    //   navIndex[index] = "";
-    //   sections.push(<div key="__" ref={temp}></div>);
-    // }
+    if (index == 0) {
+      navIndex[index] = "";
+      sections.push(<div key="__" ref={addToRefs}></div>);
+    }
 
-    // const hRef = useRef<any>(null);
-    // navRefs.push(hRef);
     navIndex[index + 1] = child.props.id;
-    sections.push(<child.type {...child.props} key={index + child.props.id} />);
+    sections.push(
+      <child.type
+        {...child.props}
+        key={index + child.props.id}
+        ref={addToRefs}
+      />
+    );
   });
 
-  // useEffect(() => {
-  //   const handleScroll = (e: Event) => {
-  //     var index = nearestIndex(window.scrollY, navRefs, 0, navRefs.length - 1);
-  //     setActiveIndex(index);
-  //   };
+  useEffect(() => {
+    const handleScroll = (e: Event) => {
+      var index = nearestIndex(
+        window.scrollY,
+        navRefs.current,
+        0,
+        navRefs.current.length - 1
+      );
+      setActiveIndex(index);
+    };
 
-  //   document.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     document.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const nv = React.cloneElement(navbar, { activeId: navIndex[activeIndex] });
 
@@ -58,7 +71,7 @@ export default function ScrollSpy({
  */
 const nearestIndex = (
   currentPosition: number,
-  sectionPositionArray: MutableRefObject<HTMLElement>[],
+  sectionPositionArray: Array<HTMLDivElement>,
   startIndex: number,
   endIndex: number
 ): number => {
@@ -70,22 +83,18 @@ const nearestIndex = (
     return endIndex;
   } else if (startIndex === endIndex - 1) {
     if (
-      Math.abs(
-        sectionPositionArray[startIndex].current.offsetTop - currentPosition
-      ) <
-      Math.abs(
-        sectionPositionArray[endIndex].current.offsetTop - currentPosition
-      )
+      Math.abs(sectionPositionArray[startIndex].offsetTop - currentPosition) <
+      Math.abs(sectionPositionArray[endIndex].offsetTop - currentPosition)
     )
       return startIndex;
     else return endIndex;
   } else {
     var nextNearest = ~~((startIndex + endIndex) / 2);
     var a = Math.abs(
-      sectionPositionArray[nextNearest].current.offsetTop - currentPosition
+      sectionPositionArray[nextNearest].offsetTop - currentPosition
     );
     var b = Math.abs(
-      sectionPositionArray[nextNearest + 1].current.offsetTop - currentPosition
+      sectionPositionArray[nextNearest + 1].offsetTop - currentPosition
     );
     if (a < b) {
       return nearestIndex(
