@@ -12,21 +12,24 @@ export default function ScrollSpy({
   const navRefs: MutableRefObject<HTMLElement>[] = [];
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const sections: React.JSX.Element[] = [];
+  const myRefs = useRef([]);
 
   for (let index = 0; index < children.length; index++) {
     const child = children[index];
     if (index == 0) {
-      const temp = useRef<any>(null);
-      navRefs.push(temp);
+      navRefs.push(myRefs.current[index]);
       navIndex[index] = "";
-      sections.push(<div key="__" ref={temp}></div>);
+      sections.push(<div key="__" ref={myRefs.current[index]}></div>);
     }
 
-    const hRef = useRef<any>(null);
-    navRefs.push(hRef);
+    navRefs.push(myRefs.current[index + 1]);
     navIndex[index + 1] = child.props.id;
     sections.push(
-      <child.type {...child.props} key={index + child.props.id} ref={hRef} />
+      <child.type
+        {...child.props}
+        key={index + child.props.id}
+        ref={myRefs.current[index + 1]}
+      />
     );
   }
 
