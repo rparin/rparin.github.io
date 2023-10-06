@@ -8,10 +8,7 @@ const font = Rosario({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: mData.title,
-  description: mData.desc,
-};
+export const metadata: Metadata = mData;
 
 export default function RootLayout({
   children,
