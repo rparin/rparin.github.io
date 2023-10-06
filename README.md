@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# Portfolio Website
 
-First, run the development server:
+<div align="left">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A portfolio website made using Tailwind CSS, React, Next.js, and Shadcn for UI components. Next.js helps speed things up with server-side rendering, while Shadcn enhances the user experience with sleek UI components.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[About](#about) | [Technologies](#technologies)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+</div>
 
-## Learn More
+## About
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img max-height=350 alt="Banner image of website" src="https://raw.githubusercontent.com/rparin/rparin.github.io/main/Banner.png">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a href="https://rparin.github.io/" > https://rparin.github.io/ </a>
 
-## Deploy on Vercel
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Todo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Accessibility Tests
+- Banner animation
+- Scroll Transitions
+- Holiday themes
+- Mouse pet
+
+## Technologies
+
+<div align="center">
+
+[![react-io]][react-url]
+[![nextjs-io]][nextjs-url]
+[![tailwind-io]][tailwind-url]
+[![shadcn-io]][shadcn-url]
+
+</div>
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[react-url]: https://react.dev/
+[react-io]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[tailwind-url]: https://tailwindcss.com/
+[tailwind-io]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[nextjs-url]: https://nextjs.org/
+[nextjs-io]: https://img.shields.io/badge/Nextjs-000000.svg?style=for-the-badge&logo=nextdotjs
+[shadcn-url]: https://ui.shadcn.com/
+[Shadcn-io]: https://img.shields.io/badge/shadcn-000000.svg?style=for-the-badge&logo=shadcn-css&logoColor=white
