@@ -36,7 +36,7 @@ const Projects = {
     alt: "Clinical Trials Map App Screenshot",
     span: true,
     url: "https://github.com/rparin/CTMap",
-    icons: [ci.react, ci.nodejs, ci.tailwind, ci.ts, ci.html],
+    icons: [ci.react, ci.nodejs, ci.tailwind, ci.mapbox, ci.ts, ci.html],
     demo: {
       img: CTDemo,
       alt: "Demo of Clinical Trials Map",

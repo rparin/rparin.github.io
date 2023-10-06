@@ -22,6 +22,7 @@ import openai from "@icons/OpenAi.svg";
 import pandas from "@icons/Pandas.svg";
 import flask from "@icons/Flask.svg";
 import tensflow from "@icons/Tensorflow.svg";
+import mapbox from "@icons/mapbox.svg";
 
 type Img = {
   img: StaticImageData;
@@ -59,6 +60,10 @@ const CodeIcons = {
   react: {
     img: react,
     alt: "logo of react",
+  },
+  mapbox: {
+    img: mapbox,
+    alt: "logo of mapbox",
   },
   ionic: {
     img: ionic,
