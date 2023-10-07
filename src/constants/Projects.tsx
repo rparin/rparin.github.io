@@ -18,6 +18,7 @@ import PPSimDemo from "@demo/PPSim.gif";
 import GCalcDemo from "@demo/GCalc.gif";
 import TEditorDemo from "@demo/TEditor.gif";
 import FViewerDemo from "@demo/FViewer.gif";
+import STDemo from "@demo/STracker.gif";
 
 type pType = {
   name: string;
@@ -49,6 +50,10 @@ const Projects = {
     span: true,
     url: "https://github.com/rparin/Sleep-Tracker",
     icons: [ci.angular, ci.fbase, ci.ionic, ci.html, ci.css, ci.ts],
+    demo: {
+      img: STDemo,
+      alt: "Demo of Sleep Tracker App",
+    },
   },
   Sudoku: {
     name: "Sudoku",
