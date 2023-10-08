@@ -70,7 +70,7 @@ const Projects = {
     name: "Prey Predator Sim",
     img: PPSim,
     alt: "Prey Predator Simulation Screenshot",
-    url: undefined,
+    url: "https://github.com/rparin/Prey-and-Predator",
     icons: [ci.cpp, ci.sfml],
     demo: {
       img: PPSimDemo,
