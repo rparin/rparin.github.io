@@ -29,7 +29,7 @@ export default function Navbar({ activeId }: { activeId?: string }) {
 
   return (
     <>
-      <nav className="sticky top-0 bg-background drop-shadow-lg z-10">
+      <nav className="sticky top-[-1px] bg-background drop-shadow-lg z-10">
         <ul className="flex flex-row gap-7 md:gap-10 justify-center py-3 md:py-4 ml-5 pr-5 overflow-y-auto">
           {NavTags}
 
