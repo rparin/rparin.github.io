@@ -23,6 +23,8 @@ import pandas from "@icons/Pandas.svg";
 import flask from "@icons/Flask.svg";
 import tensflow from "@icons/Tensorflow.svg";
 import mapbox from "@icons/mapbox.svg";
+import nextjs from "@icons/nextjs.svg";
+import reactquery from "@icons/reactquery.svg";
 
 type Img = {
   img: StaticImageData;
@@ -60,6 +62,14 @@ const CodeIcons = {
   react: {
     img: react,
     alt: "logo of react",
+  },
+  nextjs: {
+    img: nextjs,
+    alt: "logo of nextjs",
+  },
+  reactquery: {
+    img: reactquery,
+    alt: "logo of reactquery",
   },
   mapbox: {
     img: mapbox,

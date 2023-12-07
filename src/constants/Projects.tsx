@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 import { Img } from "./Icons";
 import { CodeIcons as ci } from "./Icons";
 
+import SArtNet from "@project/SpotifyArtistNetwork.webp";
 import CTMap from "@project/CTMap.webp";
 import FViewer from "@project/FViewer.webp";
 import GCalc from "@project/GCalc.webp";
@@ -11,6 +12,7 @@ import STracker from "@project/Sleep Tracker.webp";
 import Sudoku from "@project/Sudoku.webp";
 import TEditor from "@project/TextEditor.webp";
 
+import SArtNetDemo from "@demo/SpotifyArtistNetwork.gif";
 import SSdemo from "@demo/Search.gif";
 import CTDemo from "@demo/CTMap.gif";
 import SudokuDemo from "@demo/Sudoku.gif";
@@ -31,6 +33,26 @@ type pType = {
 };
 
 const Projects = {
+  SArtNet: {
+    name: "Spotify Artist Network",
+    img: SArtNet,
+    alt: "Spotify Artist Network Landing page screenshot",
+    span: true,
+    url: "https://github.com/rparin/SpotifyArtistNetwork",
+    icons: [
+      ci.react,
+      ci.nodejs,
+      ci.nextjs,
+      ci.reactquery,
+      ci.tailwind,
+      ci.ts,
+      ci.html,
+    ],
+    demo: {
+      img: SArtNetDemo,
+      alt: "Demo of Spotify Artist Network",
+    },
+  },
   CTMap: {
     name: "Clinical Trials Map",
     img: CTMap,
@@ -128,11 +150,12 @@ const Projects = {
 
 // Items will be displayed based on array order
 const ProjectItems: Array<pType> = [
+  Projects.SArtNet,
   Projects.CTMap,
-  Projects.STracker,
   Projects.Sudoku,
   Projects.PPSim,
   Projects.SSearch,
+  Projects.STracker,
   Projects.GCalc,
   Projects.FViewer,
   Projects.TEditor,
