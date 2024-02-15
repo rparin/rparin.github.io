@@ -13,6 +13,7 @@ const og = {
 };
 
 const Metadata = {
+  metadataBase: new URL("https://rparin.github.io"),
   title: og.title,
   description: og.description,
   openGraph: og,
