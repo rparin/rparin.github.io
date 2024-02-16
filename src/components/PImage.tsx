@@ -45,9 +45,9 @@ export default function PImage(project: pType) {
       }>
       <div className="absolute hidden group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
         {demoImage}
-        <div className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
-          <ul>{codeTags}</ul>
-        </div>
+        <ul className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
+          {codeTags}
+        </ul>
         <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-2 truncate">
           {project.name}
           {project.url && (
