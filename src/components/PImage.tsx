@@ -7,12 +7,17 @@ export default function PImage(project: pType) {
   const icon_cn = "h-auto w-7 md:w-10 lg:w-14 md:p-1";
   const codeTags = project.icons.map((icon) => {
     return (
-      <Image
+      <a
         key={icon.alt}
-        className={icon.invert ? icon_cn + "invert-0 dark:invert" : icon_cn}
-        src={icon.img}
-        alt={icon.alt}
-      />
+        href={icon.url}
+        target={icon.url ? "_blank" : undefined}
+        rel={icon.url ? "noopener noreferrer" : undefined}>
+        <Image
+          className={icon.invert ? icon_cn + "invert-0 dark:invert" : icon_cn}
+          src={icon.img}
+          alt={icon.alt}
+        />
+      </a>
     );
   });
 
@@ -38,27 +43,24 @@ export default function PImage(project: pType) {
           ? "col-span-2 relative md:hover:overflow-y-auto group"
           : "relative md:hover:overflow-y-auto group"
       }>
-      <a
-        href={project.url}
-        target={project.url ? "_blank" : undefined}
-        rel={project.url ? "noopener noreferrer" : undefined}>
-        <div className="absolute hidden group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
-          {demoImage}
-          <div className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
-            {codeTags}
-          </div>
-          <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-2 truncate">
-            {project.name}
-            {project.url && (
+      <div className="absolute hidden group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
+        {demoImage}
+        <div className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
+          <ul>{codeTags}</ul>
+        </div>
+        <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-2 truncate">
+          {project.name}
+          {project.url && (
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
               <Image
                 className="w-auto h-5 md:h-7 dark:invert"
                 src={SocialIcons.github.img}
                 alt={SocialIcons.github.alt}
               />
-            )}
-          </div>
+            </a>
+          )}
         </div>
-      </a>
+      </div>
       <Image src={project.img} alt={project.alt} />
     </div>
   );

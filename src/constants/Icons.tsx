@@ -30,6 +30,7 @@ type Img = {
   img: StaticImageData;
   alt: string;
   invert?: boolean;
+  url?: string;
 };
 
 const MiscIcons = {
@@ -58,90 +59,112 @@ const CodeIcons = {
   angular: {
     img: angular,
     alt: "logo of angular",
+    url: "https://angular.io/",
   },
   react: {
     img: react,
     alt: "logo of react",
+    url: "https://react.dev/",
   },
   nextjs: {
     img: nextjs,
     alt: "logo of nextjs",
+    url: "https://nextjs.org/",
   },
   reactquery: {
     img: reactquery,
     alt: "logo of reactquery",
+    url: "https://tanstack.com/query/latest",
   },
   mapbox: {
     img: mapbox,
     alt: "logo of mapbox",
+    url: "https://www.mapbox.com/",
   },
   ionic: {
     img: ionic,
     alt: "logo of ionic",
+    url: "https://ionicframework.com/",
   },
   tailwind: {
     img: tailwind,
     alt: "logo of tailwind",
+    url: "https://tailwindcss.com/",
   },
   fbase: {
     img: fbase,
     alt: "logo of firebase",
+    url: "https://firebase.google.com/",
   },
   nodejs: {
     img: nodejs,
     alt: "logo of nodejs",
+    url: "https://nodejs.org/en",
   },
   cpp: {
     img: cpp,
     alt: "logo of c++",
+    url: "https://isocpp.org/",
   },
   css: {
     img: css,
     alt: "logo of css",
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   js: {
     img: js,
     alt: "logo of javascript",
+    url: "https://developer.mozilla.org/en-US/docs/Web/javascript",
   },
   html: {
     img: html,
     alt: "logo of html",
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   ts: {
     img: ts,
     alt: "logo of typescript",
+    url: "https://www.typescriptlang.org/",
   },
   python: {
     img: python,
     alt: "logo of python programming language",
+    url: "https://www.python.org/",
   },
   java: {
     img: java,
     alt: "logo of java",
+    url: "https://www.java.com/en/download/help/whatis_java.html",
   },
   pygame: {
     img: pygame,
     alt: "logo of pygame library",
+    url: "https://www.pygame.org/",
   },
   sfml: {
     img: sfml,
     alt: "logo of SFML library",
+    url: "https://www.sfml-dev.org/",
   },
   tensflow: {
     img: tensflow,
     alt: "logo of tensorflow",
+    url: "https://www.tensorflow.org/",
   },
   pandas: {
     img: pandas,
     alt: "logo of pandas library",
+    url: "https://pandas.pydata.org/",
   },
   flask: {
     img: flask,
     alt: "logo of flask framework",
+    url: "https://flask.palletsprojects.com/en/3.0.x/",
   },
   openai: {
     img: openai,
     alt: "logo of openai",
+    url: "https://openai.com/",
     invert: true,
   },
 };
