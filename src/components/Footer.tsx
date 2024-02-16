@@ -17,7 +17,7 @@ export default function Footer() {
           />
         </a>
       </div>
-      <p className="text-sm">©️ 2023. Designed by Ralph Parin.</p>
+      <p className="text-sm">©️ 2023. Designed and Developed by Ralph Parin.</p>
     </footer>
   );
 }
