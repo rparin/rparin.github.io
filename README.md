@@ -49,4 +49,4 @@ A portfolio website made using Tailwind CSS, React, Next.js, and Shadcn for UI c
 [nextjs-url]: https://nextjs.org/
 [nextjs-io]: https://img.shields.io/badge/Nextjs-000000.svg?style=for-the-badge&logo=nextdotjs
 [shadcn-url]: https://ui.shadcn.com/
-[Shadcn-io]: https://img.shields.io/badge/shadcn-000000.svg?style=for-the-badge&logo=shadcn-css&logoColor=white
+[Shadcn-io]: https://img.shields.io/badge/shadcn-000000.svg?style=for-the-badge&logo=shadcnui&logoColor=white
