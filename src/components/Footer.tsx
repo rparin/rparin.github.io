@@ -1,5 +1,4 @@
-import Image from "next/image";
-import extLink from "@icons/external-link.svg";
+import { ExternalLink } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -10,11 +9,7 @@ export default function Footer() {
           href="https://github.com/rparin/rparin.github.io"
           target="_blank"
           rel="noopener noreferrer">
-          <Image
-            className="max-w-[1.5vh] invert-0 dark:invert w-auto h-3/5"
-            src={extLink}
-            alt="External link to source code"
-          />
+          <ExternalLink className="max-w-[1.5vh] w-auto h-3/5" />
         </a>
       </div>
       <p className="text-sm">©️ 2023. Designed and Developed by Ralph Parin.</p>
