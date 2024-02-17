@@ -8,9 +8,8 @@ export default function PImage(project: pType) {
   const icon_cn = "h-auto w-7 md:w-10 lg:w-14 md:p-1";
   const devTools = project.icons.map((icon) => {
     return (
-      <li>
+      <li key={icon.alt}>
         <a
-          key={icon.alt}
           href={icon.url}
           target={icon.url ? "_blank" : undefined}
           rel={icon.url ? "noopener noreferrer" : undefined}>
