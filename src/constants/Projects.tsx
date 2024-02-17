@@ -28,6 +28,7 @@ type pType = {
   alt: string;
   span?: boolean;
   url?: string;
+  website?: string;
   icons: Array<Img>;
   demo?: Img;
 };
@@ -39,6 +40,7 @@ const Projects = {
     alt: "Spotify Artist Network Landing page screenshot",
     span: true,
     url: "https://github.com/rparin/SpotifyArtistNetwork",
+    website: "https://spotify-artist-network.vercel.app",
     icons: [
       ci.react,
       ci.nodejs,

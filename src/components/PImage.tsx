@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { pType } from "@/constants/Projects";
 import { SocialIcons } from "@/constants/Icons";
+import { ExternalLink } from "lucide-react";
 
 export default function PImage(project: pType) {
   const demoOn = true;
@@ -48,12 +49,17 @@ export default function PImage(project: pType) {
         <ul className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
           {codeTags}
         </ul>
-        <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-2 truncate">
+        <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-1 truncate">
           {project.name}
+          {project.website && (
+            <a href={project.website} target="_blank" rel="noopener noreferrer">
+              <ExternalLink className="w-auto h-3 md:h-4 mb-2" />
+            </a>
+          )}
           {project.url && (
             <a href={project.url} target="_blank" rel="noopener noreferrer">
               <Image
-                className="w-auto h-5 md:h-7 dark:invert"
+                className="w-auto h-5 md:h-7 dark:invert ml-1"
                 src={SocialIcons.github.img}
                 alt={SocialIcons.github.alt}
               />
