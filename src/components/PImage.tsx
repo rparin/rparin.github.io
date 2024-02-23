@@ -33,6 +33,9 @@ export default function PImage(project: pType) {
       width={100}
       height={100}
       loading="lazy"
+      placeholder="blur"
+      style={{ objectFit: "cover" }}
+      blurDataURL={project.img}
     />
   );
   if (demoOn && project.demo) {
@@ -44,6 +47,9 @@ export default function PImage(project: pType) {
         width={100}
         height={100}
         loading="lazy"
+        placeholder="blur"
+        style={{ objectFit: "cover" }}
+        blurDataURL={project.demo.img}
       />
     );
   }
@@ -85,6 +91,9 @@ export default function PImage(project: pType) {
         width={100}
         height={100}
         loading="lazy"
+        placeholder="blur"
+        style={{ objectFit: "cover" }}
+        blurDataURL={project.img}
       />
     </div>
   );
