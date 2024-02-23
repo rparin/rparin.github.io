@@ -1,42 +1,24 @@
-import { StaticImageData } from "next/image";
 import { Img } from "./Icons";
 import { CodeIcons as ci } from "./Icons";
 
-import SArtNet from "@project/SpotifyArtistNetwork.webp";
-import CTMap from "@project/CTMap.webp";
-import FViewer from "@project/FViewer.webp";
-import GCalc from "@project/GCalc.webp";
-import PPSim from "@project/PreyPredSim.webp";
-import SSearch from "@project/Search.webp";
-import STracker from "@project/Sleep Tracker.webp";
-import Sudoku from "@project/Sudoku.webp";
-import TEditor from "@project/TextEditor.webp";
-
-import SArtNetDemo from "@demo/SpotifyArtistNetwork.gif";
-import SSdemo from "@demo/Search.gif";
-import CTDemo from "@demo/CTMap.gif";
-import SudokuDemo from "@demo/Sudoku.gif";
-import PPSimDemo from "@demo/PPSim.gif";
-import GCalcDemo from "@demo/GCalc.gif";
-import TEditorDemo from "@demo/TEditor.gif";
-import FViewerDemo from "@demo/FViewer.gif";
-import STDemo from "@demo/STracker.gif";
-
 type pType = {
   name: string;
-  img: StaticImageData;
+  img: string;
   alt: string;
   span?: boolean;
   url?: string;
   website?: string;
   icons: Array<Img>;
-  demo?: Img;
+  demo?: {
+    img: string;
+    alt: string;
+  };
 };
 
 const Projects = {
   SArtNet: {
     name: "Spotify Artist Network",
-    img: SArtNet,
+    img: "https://raw.githubusercontent.com/rparin/SpotifyArtistNetwork/main/_preview/SpotifyArtistNetwork.webp",
     alt: "Spotify Artist Network Landing page screenshot",
     span: true,
     url: "https://github.com/rparin/SpotifyArtistNetwork",
@@ -51,100 +33,100 @@ const Projects = {
       ci.html,
     ],
     demo: {
-      img: SArtNetDemo,
+      img: "https://raw.githubusercontent.com/rparin/SpotifyArtistNetwork/main/_preview/Demo.gif",
       alt: "Demo of Spotify Artist Network",
     },
   },
   CTMap: {
     name: "Clinical Trials Map",
-    img: CTMap,
+    img: "https://raw.githubusercontent.com/rparin/CTMap/main/_preview/CTMap.webp",
     alt: "Clinical Trials Map App Screenshot",
     span: true,
     url: "https://github.com/rparin/CTMap",
     icons: [ci.react, ci.nodejs, ci.tailwind, ci.mapbox, ci.ts, ci.html],
     demo: {
-      img: CTDemo,
+      img: "https://raw.githubusercontent.com/rparin/CTMap/main/_preview/Demo.gif",
       alt: "Demo of Clinical Trials Map",
     },
   },
   STracker: {
     name: "Sleep Tracker",
-    img: STracker,
+    img: "https://raw.githubusercontent.com/rparin/Sleep-Tracker/main/preview/Sleep%20Tracker.webp",
     alt: "Sleep Tracker App Screenshot",
     span: true,
     url: "https://github.com/rparin/Sleep-Tracker",
     icons: [ci.angular, ci.fbase, ci.ionic, ci.html, ci.css, ci.ts],
     demo: {
-      img: STDemo,
+      img: "https://raw.githubusercontent.com/rparin/Sleep-Tracker/main/preview/Demo.gif",
       alt: "Demo of Sleep Tracker App",
     },
   },
   Sudoku: {
     name: "Sudoku",
-    img: Sudoku,
+    img: "https://raw.githubusercontent.com/rparin/Sudoku/main/preview/Sudoku.webp",
     alt: "Sudoku Help Menu Screenshot",
     url: "https://github.com/rparin/Sudoku",
     icons: [ci.python, ci.pygame],
     demo: {
-      img: SudokuDemo,
+      img: "https://raw.githubusercontent.com/rparin/Sudoku/main/preview/Demo.gif",
       alt: "Demo of Sudoku game",
     },
   },
   PPSim: {
     name: "Prey Predator Sim",
-    img: PPSim,
+    img: "https://raw.githubusercontent.com/rparin/Prey-and-Predator/main/preview/PreyPredSim.webp",
     alt: "Prey Predator Simulation Screenshot",
     url: "https://github.com/rparin/Prey-and-Predator",
     icons: [ci.cpp, ci.sfml],
     demo: {
-      img: PPSimDemo,
+      img: "https://raw.githubusercontent.com/rparin/Prey-and-Predator/main/preview/Demo.gif",
       alt: "Demo of Prey and Predator Sim",
     },
   },
   FViewer: {
     name: "Font Viewer",
-    img: FViewer,
+    img: "https://raw.githubusercontent.com/rparin/Font-Viewer/main/preview/FViewer.webp",
     alt: "Font Viewer App Screenshot",
     span: true,
     url: "https://github.com/rparin/Font-Viewer",
     icons: [ci.angular, ci.fbase, ci.tensflow, ci.html, ci.css, ci.ts],
     demo: {
-      img: FViewerDemo,
+      img: "https://raw.githubusercontent.com/rparin/Font-Viewer/main/preview/demo.gif",
       alt: "Demo of Font Viewer Application",
     },
   },
   GCalc: {
     name: "Graphing Calculator",
-    img: GCalc,
+    img: "https://raw.githubusercontent.com/rparin/Graphing-Calculator/main/preview/GCalc.webp",
     alt: "Graphing Calculator App Screenshot",
     span: true,
     url: "https://github.com/rparin/Graphing-Calculator",
     icons: [ci.cpp, ci.sfml],
     demo: {
-      img: GCalcDemo,
+      img: "https://raw.githubusercontent.com/rparin/Graphing-Calculator/main/preview/Demo.gif",
       alt: "Demo of Graphing Calc App",
     },
   },
   TEditor: {
     name: "Text Editor",
-    img: TEditor,
+    img: "https://raw.githubusercontent.com/rparin/JText-Editor/main/preview/TextEditor.webp",
     alt: "Text Editor Screenshot",
     url: "https://github.com/rparin/JText-Editor",
     icons: [ci.java],
     demo: {
-      img: TEditorDemo,
+      img: "https://raw.githubusercontent.com/rparin/JText-Editor/main/preview/Demo.gif",
       alt: "Demo of Text Editor App",
     },
   },
   SSearch: {
     name: "Search Engine",
-    img: SSearch,
+    img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Search.webp",
     alt: "Search App Screenshot",
     span: true,
     url: "https://github.com/rparin/StellerSearch",
     icons: [ci.python, ci.openai, ci.flask, ci.pandas, ci.html, ci.css, ci.js],
     demo: {
-      img: SSdemo,
+      img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Demo.gif",
       alt: "Demo of search engine",
     },
   },

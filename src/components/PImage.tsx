@@ -24,9 +24,16 @@ export default function PImage(project: pType) {
   });
 
   const demo_cn =
-    "col-span-3 row-span-3 md:col-span-4 md:row-span-4 object-fill";
+    "col-span-3 row-span-3 md:col-span-4 md:row-span-4 w-full h-auto";
   var demoImage = (
-    <Image className={demo_cn} src={project.img} alt={project.alt} />
+    <Image
+      className={demo_cn}
+      src={project.img}
+      alt={project.alt}
+      width={100}
+      height={100}
+      loading="lazy"
+    />
   );
   if (demoOn && project.demo) {
     demoImage = (
@@ -34,6 +41,9 @@ export default function PImage(project: pType) {
         className={demo_cn}
         src={project.demo.img}
         alt={project.demo.alt}
+        width={100}
+        height={100}
+        loading="lazy"
       />
     );
   }
@@ -68,7 +78,14 @@ export default function PImage(project: pType) {
           )}
         </div>
       </div>
-      <Image src={project.img} alt={project.alt} />
+      <Image
+        className="w-full h-auto"
+        src={project.img}
+        alt={project.alt}
+        width={100}
+        height={100}
+        loading="lazy"
+      />
     </div>
   );
 }
