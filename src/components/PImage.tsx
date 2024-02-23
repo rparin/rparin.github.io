@@ -24,7 +24,7 @@ export default function PImage(project: pType) {
   });
 
   const demo_cn =
-    "col-span-3 row-span-3 md:col-span-4 md:row-span-4 w-full h-auto";
+    "col-span-3 row-span-3 md:col-span-4 md:row-span-4 w-full h-full";
   var demoImage = (
     <Image
       className={demo_cn}
