@@ -23,18 +23,16 @@ export default function PImage(project: pType) {
     );
   });
 
-  const demo_cn =
-    "col-span-3 row-span-3 md:col-span-4 md:row-span-4 w-full h-full";
+  const demo_cn = "col-span-3 row-span-3 md:col-span-4 md:row-span-4";
   var demoImage = (
     <Image
       className={demo_cn}
       src={project.img}
       alt={project.alt}
-      width={100}
-      height={100}
+      width={project.span ? 1912 : 956}
+      height={924}
       loading="lazy"
       // placeholder="blur"
-      // style={{ objectFit: "cover" }}
       // blurDataURL={project.img}
     />
   );
@@ -44,11 +42,10 @@ export default function PImage(project: pType) {
         className={demo_cn}
         src={project.demo.img}
         alt={project.demo.alt}
-        width={100}
-        height={100}
+        width={project.span ? 1912 : 956}
+        height={924}
         loading="lazy"
         // placeholder="blur"
-        // style={{ objectFit: "cover" }}
         // blurDataURL={project.demo.img}
       />
     );
@@ -85,14 +82,12 @@ export default function PImage(project: pType) {
         </div>
       </div>
       <Image
-        className="w-full h-auto"
         src={project.img}
         alt={project.alt}
-        width={100}
-        height={100}
+        width={project.span ? 1912 : 956}
+        height={924}
         loading="lazy"
         // placeholder="blur"
-        // style={{ objectFit: "cover" }}
         // blurDataURL={project.img}
       />
     </div>
