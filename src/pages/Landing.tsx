@@ -8,8 +8,7 @@ export default function Landing() {
     <>
       <section id={NavHome.id} className="relative">
         <LandingAbout />
-        <div className="h-[41vh] md:h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40 opacity-50"></div>
-        <div className="h-[41vh] md:h-[51vh] w-[100%] bg-gradient-to-t from-background absolute z-40"></div>
+        <div className="h-[41vh] md:h-[51vh] w-[100%] absolute z-40 banner-grad"></div>
         <Image
           className="h-[40vh] md:h-[50vh] w-[60%] object-cover absolute z-30 right-0 opacity-80"
           src={HomeImages.code.img}
