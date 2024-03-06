@@ -70,6 +70,11 @@
   .p-scroll::-webkit-scrollbar-thumb:hover {
     background: var(--accent);
   }
+
+  .banner-grad {
+    background: linear-gradient(180deg, transparent 25%, var(--background) 99%),
+      linear-gradient(180deg, transparent 40%, var(--background) 99%);
+  }
 }
 
 /* Font sizes: Perfect Fourth */
