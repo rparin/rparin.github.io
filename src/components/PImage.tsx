@@ -70,8 +70,8 @@ export default function PImage(project: pType) {
               <ExternalLink className="w-auto h-3 md:h-4 mb-2" />
             </a>
           )}
-          {project.url && (
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
+          {project.github && (
+            <a href={project.github} target="_blank" rel="noopener noreferrer">
               <Image
                 className="w-auto h-5 md:h-7 dark:invert ml-1"
                 src={SocialIcons.github.img}
