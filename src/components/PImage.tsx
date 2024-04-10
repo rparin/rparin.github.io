@@ -10,6 +10,7 @@ export default function PImage(project: pType) {
     return (
       <li key={icon.alt}>
         <a
+          title={icon.name}
           href={icon.url}
           target={icon.url ? "_blank" : undefined}
           rel={icon.url ? "noopener noreferrer" : undefined}>
@@ -68,7 +69,8 @@ export default function PImage(project: pType) {
           {project.website && (
             <a
               href={project.website}
-              aria-label={`${project.name} website`}
+              title={`${project.name} Website`}
+              aria-label={`${project.name} Website`}
               target="_blank"
               rel="noopener noreferrer">
               <ExternalLink className="w-auto h-3 md:h-4 mb-2" />
@@ -77,7 +79,8 @@ export default function PImage(project: pType) {
           {project.github && (
             <a
               href={project.github}
-              aria-label={`${project.name} github`}
+              title={`${project.name} Github`}
+              aria-label={`${project.name} Github`}
               target="_blank"
               rel="noopener noreferrer">
               <Image

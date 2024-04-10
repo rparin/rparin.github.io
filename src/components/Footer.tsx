@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="flex flex-row text-center justify-center">
         <p className="text-sm">Built using React and Tailwind.</p>
         <a
+          title="Portfolio website source code"
           href="https://github.com/rparin/rparin.github.io"
           aria-label="Github for portfolio website"
           target="_blank"

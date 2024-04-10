@@ -11,21 +11,29 @@ export default function Contact({ id }: { id: string }) {
         <h2 className="font-normal mt-10 text-2xl md:text-3xl">Get In Touch</h2>
 
         <div className="flex flex-wrap justify-center items-center gap-6 mt-10">
-          <a href={"mailto:" + AboutGen.email}>
+          <a title={SocialIcons.gmail.name} href={"mailto:" + AboutGen.email}>
             <Image
               className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0"
               src={SocialIcons.gmail.img}
               alt={SocialIcons.gmail.alt}
             />
           </a>
-          <a href={Socials.linkedIn} target="_blank" rel="noopener noreferrer">
+          <a
+            title={SocialIcons.linkedin.name}
+            href={Socials.linkedIn}
+            target="_blank"
+            rel="noopener noreferrer">
             <Image
               className="max-h-[12vh] p-1 w-14  h-auto drop-shadow-xl hover:p-0"
               src={SocialIcons.linkedin.img}
               alt={SocialIcons.linkedin.alt}
             />
           </a>
-          <a href={Socials.github} target="_blank" rel="noopener noreferrer">
+          <a
+            title={SocialIcons.github.name}
+            href={Socials.github}
+            target="_blank"
+            rel="noopener noreferrer">
             <Image
               className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0 dark:invert"
               src={SocialIcons.github.img}

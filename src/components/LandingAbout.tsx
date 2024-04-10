@@ -28,18 +28,27 @@ export default function LandingAbout() {
 
         <div className="flex flex-row justify-center gap-2">
           <a
+            title={SocialIcons.gmail.name}
             href={"mailto:" + AboutGen.email}
             className="text-base font-normal dark:font-light text-url">
             {AboutGen.email}
           </a>
-          <a href={Socials.github} target="_blank" rel="noopener noreferrer">
+          <a
+            title={SocialIcons.github.name}
+            href={Socials.github}
+            target="_blank"
+            rel="noopener noreferrer">
             <Image
               className="h-8 w-8 object-cover dark:invert"
               src={SocialIcons.github.img}
               alt={SocialIcons.github.alt}
             />
           </a>
-          <a href={Socials.linkedIn} target="_blank" rel="noopener noreferrer">
+          <a
+            title={SocialIcons.linkedin.name}
+            href={Socials.linkedIn}
+            target="_blank"
+            rel="noopener noreferrer">
             <Image
               className="h-8 w-8 object-cover"
               src={SocialIcons.linkedin.img}

@@ -34,6 +34,7 @@ export default function Navbar({ activeId }: { activeId?: string }) {
 
           <li>
             <form
+              title="Download Resume"
               className="text-text dark:text-text bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary flex flex-row"
               method="get"
               action={Resume.url}>

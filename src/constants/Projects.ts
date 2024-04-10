@@ -1,4 +1,4 @@
-import { Img } from "./Icons";
+import { Icon } from "./Icons";
 import { DevTools as dt } from "./Icons";
 
 type pType = {
@@ -8,7 +8,7 @@ type pType = {
   span?: boolean;
   github?: string;
   website?: string;
-  icons: Array<Img>;
+  icons: Array<Icon>;
   demo?: {
     img: string;
     alt: string;
