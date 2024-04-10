@@ -1,6 +1,5 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import Head from "next/head";
 import { Rosario } from "next/font/google";
 import { ThemeProvider } from "@/components/Theme-Provider";
 import { Metadata as mData } from "@/constants/Meta";
