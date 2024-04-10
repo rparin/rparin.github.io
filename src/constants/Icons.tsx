@@ -25,6 +25,7 @@ import tensflow from "@icons/Tensorflow.svg";
 import mapbox from "@icons/mapbox.svg";
 import nextjs from "@icons/nextjs.svg";
 import reactquery from "@icons/reactquery.svg";
+import zod from "@icons/Zod.svg";
 
 type Img = {
   img: StaticImageData;
@@ -75,6 +76,11 @@ const CodeIcons = {
     img: reactquery,
     alt: "logo of reactquery",
     url: "https://tanstack.com/query/latest",
+  },
+  zod: {
+    img: zod,
+    alt: "logo of zod",
+    url: "https://zod.dev",
   },
   mapbox: {
     img: mapbox,

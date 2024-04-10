@@ -27,6 +27,7 @@ const Projects = {
       ci.react,
       ci.nodejs,
       ci.nextjs,
+      ci.zod,
       ci.reactquery,
       ci.tailwind,
       ci.ts,
