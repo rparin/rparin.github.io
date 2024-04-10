@@ -7,6 +7,7 @@ export default function Footer() {
         <p className="text-sm">Built using React and Tailwind.</p>
         <a
           href="https://github.com/rparin/rparin.github.io"
+          aria-label="Github for portfolio website"
           target="_blank"
           rel="noopener noreferrer">
           <ExternalLink className="max-w-[1.5vh] w-auto h-3/5" />

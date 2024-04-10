@@ -66,12 +66,20 @@ export default function PImage(project: pType) {
         <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-1 truncate">
           {project.name}
           {project.website && (
-            <a href={project.website} target="_blank" rel="noopener noreferrer">
+            <a
+              href={project.website}
+              aria-label={`${project.name} website`}
+              target="_blank"
+              rel="noopener noreferrer">
               <ExternalLink className="w-auto h-3 md:h-4 mb-2" />
             </a>
           )}
           {project.github && (
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
+            <a
+              href={project.github}
+              aria-label={`${project.name} github`}
+              target="_blank"
+              rel="noopener noreferrer">
               <Image
                 className="w-auto h-5 md:h-7 dark:invert ml-1"
                 src={SocialIcons.github.img}
