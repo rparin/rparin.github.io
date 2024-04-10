@@ -33,14 +33,17 @@ export default function Navbar({ activeId }: { activeId?: string }) {
           {NavTags}
 
           <li>
-            <button className="text-text dark:text-text bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary">
-              <a href={Resume.url} className="flex flex-row">
-                <span className="p-0 pt-1 pl-2 pr-2 pb-1">{Resume.title}</span>
-                <div className="flex justify-end bg-secondary rounded-r-md">
-                  <Download className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0" />
-                </div>
-              </a>
-            </button>
+            <form
+              className="text-text dark:text-text bg-primary dark:bg-primary p-0 m-0 rounded-md hover:bg-secondary dark:hover:bg-secondary flex flex-row"
+              method="get"
+              action={Resume.url}>
+              <button className="p-0 pt-1 pl-2 pr-2 pb-1" type="submit">
+                {Resume.title}
+              </button>
+              <div className="flex justify-end bg-secondary rounded-r-md">
+                <Download className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0" />
+              </div>
+            </form>
           </li>
         </ul>
       </nav>
