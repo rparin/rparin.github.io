@@ -18,12 +18,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning className="scroll">
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="hcmUVD9Z980Mb3ueRfyryxsObeKlNgrYfY7br2Eaenk"
-        />
-      </Head>
       <body className={font.className}>
         <ThemeProvider
           attribute="class"

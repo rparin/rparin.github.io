@@ -17,6 +17,9 @@ const Metadata = {
   title: og.title,
   description: og.description,
   openGraph: og,
+  other: {
+    "google-site-verification": "hcmUVD9Z980Mb3ueRfyryxsObeKlNgrYfY7br2Eaenk",
+  },
 };
 
 export { Metadata };
