@@ -48,7 +48,7 @@ const SocialIcons = {
   },
 };
 
-const CodeIcons = {
+const DevTools = {
   angular: {
     img: angular,
     alt: "logo of angular",
@@ -167,5 +167,5 @@ const CodeIcons = {
   },
 };
 
-export { CodeIcons, SocialIcons };
+export { DevTools, SocialIcons };
 export type { Img };

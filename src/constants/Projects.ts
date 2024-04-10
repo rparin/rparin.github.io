@@ -1,5 +1,5 @@
 import { Img } from "./Icons";
-import { CodeIcons as ci } from "./Icons";
+import { DevTools as dt } from "./Icons";
 
 type pType = {
   name: string;
@@ -24,14 +24,14 @@ const Projects = {
     url: "https://github.com/rparin/SpotifyArtistNetwork",
     website: "https://spotify-artist-network.vercel.app",
     icons: [
-      ci.react,
-      ci.nodejs,
-      ci.nextjs,
-      ci.zod,
-      ci.reactquery,
-      ci.tailwind,
-      ci.ts,
-      ci.html,
+      dt.react,
+      dt.nodejs,
+      dt.nextjs,
+      dt.zod,
+      dt.reactquery,
+      dt.tailwind,
+      dt.ts,
+      dt.html,
     ],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/SpotifyArtistNetwork/main/_preview/Demo.gif",
@@ -44,7 +44,7 @@ const Projects = {
     alt: "Clinical Trials Map App Screenshot",
     span: true,
     url: "https://github.com/rparin/CTMap",
-    icons: [ci.react, ci.nodejs, ci.tailwind, ci.mapbox, ci.ts, ci.html],
+    icons: [dt.react, dt.nodejs, dt.tailwind, dt.mapbox, dt.ts, dt.html],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/CTMap/main/_preview/Demo.gif",
       alt: "Demo of Clinical Trials Map",
@@ -56,7 +56,7 @@ const Projects = {
     alt: "Sleep Tracker App Screenshot",
     span: true,
     url: "https://github.com/rparin/Sleep-Tracker",
-    icons: [ci.angular, ci.fbase, ci.ionic, ci.html, ci.css, ci.ts],
+    icons: [dt.angular, dt.fbase, dt.ionic, dt.html, dt.css, dt.ts],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/Sleep-Tracker/main/preview/Demo.gif",
       alt: "Demo of Sleep Tracker App",
@@ -67,7 +67,7 @@ const Projects = {
     img: "https://raw.githubusercontent.com/rparin/Sudoku/main/preview/Sudoku.webp",
     alt: "Sudoku Help Menu Screenshot",
     url: "https://github.com/rparin/Sudoku",
-    icons: [ci.python, ci.pygame],
+    icons: [dt.python, dt.pygame],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/Sudoku/main/preview/Demo.gif",
       alt: "Demo of Sudoku game",
@@ -78,7 +78,7 @@ const Projects = {
     img: "https://raw.githubusercontent.com/rparin/Prey-and-Predator/main/preview/PreyPredSim.webp",
     alt: "Prey Predator Simulation Screenshot",
     url: "https://github.com/rparin/Prey-and-Predator",
-    icons: [ci.cpp, ci.sfml],
+    icons: [dt.cpp, dt.sfml],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/Prey-and-Predator/main/preview/Demo.gif",
       alt: "Demo of Prey and Predator Sim",
@@ -90,7 +90,7 @@ const Projects = {
     alt: "Font Viewer App Screenshot",
     span: true,
     url: "https://github.com/rparin/Font-Viewer",
-    icons: [ci.angular, ci.fbase, ci.tensflow, ci.html, ci.css, ci.ts],
+    icons: [dt.angular, dt.fbase, dt.tensflow, dt.html, dt.css, dt.ts],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/Font-Viewer/main/preview/demo.gif",
       alt: "Demo of Font Viewer Application",
@@ -102,7 +102,7 @@ const Projects = {
     alt: "Graphing Calculator App Screenshot",
     span: true,
     url: "https://github.com/rparin/Graphing-Calculator",
-    icons: [ci.cpp, ci.sfml],
+    icons: [dt.cpp, dt.sfml],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/Graphing-Calculator/main/preview/Demo.gif",
       alt: "Demo of Graphing Calc App",
@@ -113,7 +113,7 @@ const Projects = {
     img: "https://raw.githubusercontent.com/rparin/JText-Editor/main/preview/TextEditor.webp",
     alt: "Text Editor Screenshot",
     url: "https://github.com/rparin/JText-Editor",
-    icons: [ci.java],
+    icons: [dt.java],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/JText-Editor/main/preview/Demo.gif",
       alt: "Demo of Text Editor App",
@@ -125,7 +125,7 @@ const Projects = {
     alt: "Search App Screenshot",
     span: true,
     url: "https://github.com/rparin/StellerSearch",
-    icons: [ci.python, ci.openai, ci.flask, ci.pandas, ci.html, ci.css, ci.js],
+    icons: [dt.python, dt.openai, dt.flask, dt.pandas, dt.html, dt.css, dt.js],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Demo.gif",
       alt: "Demo of search engine",
