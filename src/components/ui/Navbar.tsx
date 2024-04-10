@@ -1,10 +1,9 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { NavItems, Resume } from "@/constants/NavLinks";
-import { MiscIcons } from "@/constants/Icons";
+import { Download } from "lucide-react";
 
 export default function Navbar({ activeId }: { activeId?: string }) {
   const [NavTags, setNavTags] = useState<React.ReactElement[]>([]);
@@ -38,11 +37,7 @@ export default function Navbar({ activeId }: { activeId?: string }) {
               <a href={Resume.url} className="flex flex-row">
                 <span className="p-0 pt-1 pl-2 pr-2 pb-1">{Resume.title}</span>
                 <div className="flex justify-end bg-secondary rounded-r-md">
-                  <Image
-                    className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0"
-                    src={MiscIcons.download.img}
-                    alt={MiscIcons.download.alt}
-                  />
+                  <Download className="w-8 h-auto p-2 sm:p-1.5 invert dark:invert-0" />
                 </div>
               </a>
             </button>

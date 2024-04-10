@@ -2,7 +2,6 @@ import { StaticImageData } from "next/image";
 import git from "@icons/Github.svg";
 import linked from "@icons/LinkedIn.svg";
 import gmail from "@icons/GMail.svg";
-import download from "@icons/Download.svg";
 import cpp from "@icons/Cpp.svg";
 import css from "@icons/CSS.svg";
 import js from "@icons/JS.svg";
@@ -32,13 +31,6 @@ type Img = {
   alt: string;
   invert?: boolean;
   url?: string;
-};
-
-const MiscIcons = {
-  download: {
-    img: download,
-    alt: "download icon",
-  },
 };
 
 const SocialIcons = {
@@ -175,5 +167,5 @@ const CodeIcons = {
   },
 };
 
-export { MiscIcons, CodeIcons, SocialIcons };
+export { CodeIcons, SocialIcons };
 export type { Img };
