@@ -41,7 +41,7 @@ export default function LandingAbout() {
             <Image
               className="h-8 w-8 object-cover dark:invert"
               src={SocialIcons.github.img}
-              alt={SocialIcons.github.alt}
+              alt={SocialIcons.github.name}
             />
           </a>
           <a
@@ -52,7 +52,7 @@ export default function LandingAbout() {
             <Image
               className="h-8 w-8 object-cover"
               src={SocialIcons.linkedin.img}
-              alt={SocialIcons.linkedin.alt}
+              alt={SocialIcons.linkedin.name}
             />
           </a>
         </div>
