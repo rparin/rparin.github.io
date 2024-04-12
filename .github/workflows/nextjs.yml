@@ -75,6 +75,27 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+
+      - name: Generate the sitemap
+        id: sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://rparin.github.io/
+          path-to-root: ./out
+          include-pdf: false
+          exclude-paths: >
+            /404.html
+            /About.html
+            /Contact.html
+            /Landing.html
+            /Project.html
+
+      - name: Output stats
+        run: |
+          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -91,3 +112,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Output stats
+        run: |
+          echo "deployment-page_url = ${{ steps.deployment.outputs.page_url }}"
