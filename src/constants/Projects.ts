@@ -121,7 +121,7 @@ const Projects = {
   },
   SSearch: {
     name: "Search Engine",
-    img: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/src/assets/Projects/SSearch/SpotifyArtistNetwork.webp",
+    img: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/src/assets/Projects/SSearch/Search.webp",
     alt: "Search App Screenshot",
     span: true,
     icons: [dt.python, dt.openai, dt.flask, dt.pandas, dt.html, dt.css, dt.js],
