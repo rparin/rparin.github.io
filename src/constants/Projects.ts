@@ -124,7 +124,6 @@ const Projects = {
     img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Search.webp",
     alt: "Search App Screenshot",
     span: true,
-    github: "https://github.com/rparin/StellerSearch",
     icons: [dt.python, dt.openai, dt.flask, dt.pandas, dt.html, dt.css, dt.js],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Demo.gif",
