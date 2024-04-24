@@ -121,12 +121,12 @@ const Projects = {
   },
   SSearch: {
     name: "Search Engine",
-    img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Search.webp",
+    img: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/src/assets/Projects/SSearch/SpotifyArtistNetwork.webp",
     alt: "Search App Screenshot",
     span: true,
     icons: [dt.python, dt.openai, dt.flask, dt.pandas, dt.html, dt.css, dt.js],
     demo: {
-      img: "https://raw.githubusercontent.com/rparin/StellerSearch/main/preview/Demo.gif",
+      img: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/src/assets/Projects/SSearch/Demo.gif",
       alt: "Demo of search engine",
     },
   },
