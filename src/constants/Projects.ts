@@ -130,6 +130,19 @@ const Projects = {
       alt: "Demo of search engine",
     },
   },
+  HelloDog: {
+    name: "Hello Dog",
+    img: "https://raw.githubusercontent.com/rparin/Hello-Dog/main/_preview/preview.png",
+    alt: "Hello Dog Website screenshot",
+    github: "https://github.com/rparin/Hello-Dog",
+    website: "https://hello-dog.vercel.app/",
+    span: true,
+    icons: [dt.react, dt.nextjs, dt.tailwind, dt.zod],
+    demo: {
+      img: "https://raw.githubusercontent.com/rparin/Hello-Dog/main/_preview/Demo.gif",
+      alt: "Demo of Hello Dog Website",
+    },
+  },
 };
 
 // Items will be displayed based on array order
@@ -137,12 +150,13 @@ const ProjectItems: Array<pType> = [
   Projects.SArtNet,
   Projects.CTMap,
   Projects.Sudoku,
-  Projects.PPSim,
+  Projects.HelloDog,
   Projects.SSearch,
   Projects.STracker,
   Projects.GCalc,
   Projects.FViewer,
   Projects.TEditor,
+  Projects.PPSim,
 ];
 
 export { Projects, ProjectItems };
