@@ -136,7 +136,7 @@ const Projects = {
     alt: "Hello Dog Website screenshot",
     github: "https://github.com/rparin/Hello-Dog",
     website: "https://hello-dog.vercel.app/",
-    span: true,
+    span: false,
     icons: [dt.react, dt.nextjs, dt.tailwind, dt.zod],
     demo: {
       img: "https://raw.githubusercontent.com/rparin/Hello-Dog/main/_preview/Demo.gif",
