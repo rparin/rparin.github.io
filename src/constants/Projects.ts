@@ -149,14 +149,14 @@ const Projects = {
 const ProjectItems: Array<pType> = [
   Projects.SArtNet,
   Projects.CTMap,
-  Projects.Sudoku,
   Projects.HelloDog,
+  Projects.Sudoku,
   Projects.SSearch,
   Projects.STracker,
   Projects.GCalc,
   Projects.FViewer,
-  Projects.TEditor,
   Projects.PPSim,
+  Projects.TEditor,
 ];
 
 export { Projects, ProjectItems };
