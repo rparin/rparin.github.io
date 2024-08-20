@@ -3,7 +3,7 @@ const og = {
   url: "https://rparin.github.io/",
   title: "Ralph Parin | Portfolio",
   description:
-    "The website showcases some projects I've worked on and things about me. The technologies used to develop this website include React, Next.js, Tailwind CSS, and Shadcn-ui.",
+    "A website showcasing some projects I've worked on and things about me. The technologies used to develop this website include React, Next.js, Tailwind CSS, and Shadcn-ui.",
   siteName: "rparin.github.io",
   images: [
     {
