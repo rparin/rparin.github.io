@@ -25,6 +25,8 @@ import mapbox from "@icons/mapbox.svg";
 import nextjs from "@icons/nextjs.svg";
 import reactquery from "@icons/reactquery.svg";
 import zod from "@icons/Zod.svg";
+import springboot from "@icons/SpringBoot.svg";
+import docker from "@icons/Docker.svg";
 
 type Icon = {
   name: string;
@@ -71,6 +73,12 @@ const DevTools = {
     alt: "logo of nextjs",
     url: "https://nextjs.org/",
   },
+  springboot: {
+    name: "Spring Boot",
+    img: springboot,
+    alt: "logo of Spring Boot",
+    url: "https://spring.io/projects/spring-boot",
+  },
   reactquery: {
     name: "Tanstack Query",
     img: reactquery,
@@ -82,6 +90,12 @@ const DevTools = {
     img: zod,
     alt: "logo of zod",
     url: "https://zod.dev",
+  },
+  docker: {
+    name: "Docker",
+    img: docker,
+    alt: "logo of Docker",
+    url: "https://www.docker.com",
   },
   mapbox: {
     name: "Mapbox",
