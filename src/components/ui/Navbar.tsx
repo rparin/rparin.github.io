@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NavItems, Resume } from "@/constants/NavLinks";
 import { Download } from "lucide-react";
@@ -14,11 +14,12 @@ export default function Navbar({ activeId }: { activeId?: string }) {
     for (const [k, value] of Object.entries(NavItems)) {
       nTags.push(
         <li key={value.id} className="mt-1">
-          <a
+          <Link
+            replace={true}
             href={"#" + value.id}
             className={activeId == value.id ? "text-accent" : ""}>
             {value.title}
-          </a>
+          </Link>
         </li>
       );
     }

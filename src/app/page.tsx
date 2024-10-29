@@ -9,14 +9,16 @@ import { NavItems } from "@/constants/NavLinks";
 
 export default function App() {
   return (
-    <main className="bg-background text-text">
+    <div className="bg-background text-text">
       <Landing />
-      <ScrollSpy navbar={<Navbar />}>
-        <Project id={NavItems.projects.id} />
-        <About id={NavItems.about.id} />
-        <Contact id={NavItems.contact.id} />
-      </ScrollSpy>
+      <main>
+        <ScrollSpy navbar={<Navbar />}>
+          <Project id={NavItems.projects.id} />
+          <About id={NavItems.about.id} />
+          <Contact id={NavItems.contact.id} />
+        </ScrollSpy>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }

@@ -8,9 +8,9 @@ export default function About({ id }: { id: string }) {
       id={id}
       className="before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
       <div className="flex flex-col gap-10">
-        <h3 className="text-base md:text-lg text-center font-normal">
+        <h2 className="text-base md:text-lg text-center font-normal">
           <i>{AboutMe.Intro}</i>
-        </h3>
+        </h2>
 
         <TextImage
           variant={"left"}
