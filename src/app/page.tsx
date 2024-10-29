@@ -11,13 +11,11 @@ export default function App() {
   return (
     <div className="bg-background text-text">
       <Landing />
-      <main>
-        <ScrollSpy navbar={<Navbar />}>
-          <Project id={NavItems.projects.id} />
-          <About id={NavItems.about.id} />
-          <Contact id={NavItems.contact.id} />
-        </ScrollSpy>
-      </main>
+      <ScrollSpy navbar={<Navbar />}>
+        <Project id={NavItems.projects.id} />
+        <About id={NavItems.about.id} />
+        <Contact id={NavItems.contact.id} />
+      </ScrollSpy>
       <Footer />
     </div>
   );

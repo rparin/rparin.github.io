@@ -9,6 +9,7 @@ export default function Project({ id }: { id: string }) {
 
   return (
     <section id={id} className="scroll-mt-[70px]">
+      <h2 className="sr-only">Projects</h2>
       <div className="mt-5 grid auto-cols-auto md:grid-cols-4 xl:grid-cols-5 gap-2 mx-16">
         {PItems}
       </div>

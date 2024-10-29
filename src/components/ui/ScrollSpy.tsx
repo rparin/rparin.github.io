@@ -53,7 +53,7 @@ export default function ScrollSpy({
   return (
     <>
       {nv}
-      {sections}
+      <main>{sections}</main>
     </>
   );
 }
