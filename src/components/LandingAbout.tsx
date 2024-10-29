@@ -9,7 +9,7 @@ export default function LandingAbout() {
     <>
       <Link
         replace={true}
-        href="#home"
+        href="/"
         className="select-none flex gap-1 text-white md:text-black dark:text-white text-center absolute md:fixed top-2.5 left-5 md:left-10 z-60 px-2 hover:text-accent active:text-active dark:hover:text-accent dark:active:text-active">
         &lt; {AboutGen.Initials} /&gt;
       </Link>
