@@ -10,8 +10,8 @@ export default function Project({ id }: { id: string }) {
         key={k}
         className={
           project.span
-            ? "col-span-2 relative md:hover:overflow-y-auto group"
-            : "relative md:hover:overflow-y-auto group"
+            ? "group relative col-span-2 md:hover:overflow-y-auto"
+            : "group relative md:hover:overflow-y-auto"
         }>
         <PImage {...project} />
       </li>
@@ -21,7 +21,7 @@ export default function Project({ id }: { id: string }) {
   return (
     <section id={id} className="scroll-mt-[70px]">
       <h2 className="sr-only">Projects</h2>
-      <ul className="mt-5 grid auto-cols-auto md:grid-cols-4 xl:grid-cols-5 gap-2 mx-16">
+      <ul className="mx-16 mt-5 grid auto-cols-auto gap-2 md:grid-cols-4 xl:grid-cols-5">
         {PItems}
       </ul>
     </section>

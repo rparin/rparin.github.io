@@ -10,14 +10,14 @@ export default function LandingAbout() {
       <Link
         replace={true}
         href="/"
-        className="select-none flex gap-1 text-white md:text-black dark:text-white text-center absolute md:fixed top-2.5 left-5 md:left-10 z-60 px-2 hover:text-accent active:text-active dark:hover:text-accent dark:active:text-active">
+        className="absolute left-5 top-2.5 z-60 flex select-none gap-1 px-2 text-center text-white hover:text-accent active:text-active dark:text-white dark:hover:text-accent dark:active:text-active md:fixed md:left-10 md:text-black">
         &lt; {AboutGen.Initials} /&gt;
       </Link>
 
-      <ThemeToggle className="absolute md:fixed top-1 right-5 md:right-10 z-60 border-0 h-9 rounded-md px-3 md:px-8 bg-background hover:bg-background active:bg-active dark:bg-background dark:hover:bg-background dark:active:bg-active" />
+      <ThemeToggle className="absolute right-5 top-1 z-60 h-9 rounded-md border-0 bg-background px-3 hover:bg-background active:bg-active dark:bg-background dark:hover:bg-background dark:active:bg-active md:fixed md:right-10 md:px-8" />
 
-      <section className="absolute bottom-2 z-50 text-center w-full flex flex-col gap-1 md:gap-1.5">
-        <h1 className="text-2xl md:text-3xl leading-7 md:leading-10 font-semibold">
+      <section className="absolute bottom-2 z-50 flex w-full flex-col gap-1 text-center md:gap-1.5">
+        <h1 className="text-2xl font-semibold leading-7 md:text-3xl md:leading-10">
           {AboutGen.First} {AboutGen.Last}
         </h1>
         <p className="text-base font-normal dark:font-light">
@@ -32,7 +32,7 @@ export default function LandingAbout() {
           <a
             title={SocialIcons.gmail.name}
             href={"mailto:" + AboutGen.email}
-            className="text-base font-normal dark:font-light text-url">
+            className="text-base font-normal text-url dark:font-light">
             {AboutGen.email}
           </a>
           <a

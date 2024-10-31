@@ -7,21 +7,21 @@ export default function Landing() {
   return (
     <header id={NavHome.id} className="relative">
       <LandingAbout />
-      <div className="h-[41vh] md:h-[51vh] w-[100%] absolute z-40 banner-grad"></div>
+      <div className="banner-grad absolute z-40 h-[41vh] w-[100%] md:h-[51vh]"></div>
       <Image
-        className="h-[40vh] md:h-[50vh] w-[60%] object-cover absolute z-30 right-0 opacity-80"
+        className="absolute right-0 z-30 h-[40vh] w-[60%] object-cover opacity-80 md:h-[50vh]"
         src={HomeImages.code.img}
         alt={HomeImages.code.alt}
         priority
       />
       <Image
-        className="dark:hidden h-[40vh] md:h-[50vh] w-[100%] object-cover saturate-150"
+        className="h-[40vh] w-[100%] object-cover saturate-150 dark:hidden md:h-[50vh]"
         src={HomeImages.bgP.img}
         alt={HomeImages.bgP.alt}
         priority
       />
       <Image
-        className="hidden dark:block h-[40vh] md:h-[50vh] w-[100%] object-cover saturate-150"
+        className="hidden h-[40vh] w-[100%] object-cover saturate-150 dark:block md:h-[50vh]"
         src={HomeImages.bgR.img}
         alt={HomeImages.bgR.alt}
         priority

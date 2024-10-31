@@ -6,9 +6,9 @@ export default function About({ id }: { id: string }) {
   return (
     <section
       id={id}
-      className="before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
+      className="mx-5 before:block before:h-20 before:content-[''] lg:mx-16">
       <div className="flex flex-col gap-10">
-        <h2 className="text-base md:text-lg text-center font-normal">
+        <h2 className="text-center text-base font-normal md:text-lg">
           <i>{AboutMe.Intro}</i>
         </h2>
 

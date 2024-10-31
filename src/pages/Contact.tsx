@@ -6,14 +6,14 @@ export default function Contact({ id }: { id: string }) {
   return (
     <section
       id={id}
-      className="flex flex-col text-center before:content-[''] before:h-20 before:block mx-5 lg:mx-16">
+      className="mx-5 flex flex-col text-center before:block before:h-20 before:content-[''] lg:mx-16">
       <div className="min-h-[45vh]">
-        <h2 className="font-normal mt-10 text-2xl md:text-3xl">Get In Touch</h2>
+        <h2 className="mt-10 text-2xl font-normal md:text-3xl">Get In Touch</h2>
 
-        <div className="flex flex-wrap justify-center items-center gap-6 mt-10">
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
           <a title={SocialIcons.gmail.name} href={"mailto:" + AboutGen.email}>
             <Image
-              className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0"
+              className="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0"
               src={SocialIcons.gmail.img}
               alt={SocialIcons.gmail.alt}
             />
@@ -24,7 +24,7 @@ export default function Contact({ id }: { id: string }) {
             target="_blank"
             rel="noopener noreferrer">
             <Image
-              className="max-h-[12vh] p-1 w-14  h-auto drop-shadow-xl hover:p-0"
+              className="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0"
               src={SocialIcons.linkedin.img}
               alt={SocialIcons.linkedin.alt}
             />
@@ -35,7 +35,7 @@ export default function Contact({ id }: { id: string }) {
             target="_blank"
             rel="noopener noreferrer">
             <Image
-              className="max-h-[12vh] p-1 w-14 h-auto drop-shadow-xl hover:p-0 dark:invert"
+              className="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0 dark:invert"
               src={SocialIcons.github.img}
               alt={SocialIcons.github.alt}
             />
@@ -43,7 +43,7 @@ export default function Contact({ id }: { id: string }) {
         </div>
       </div>
 
-      <p className="mt-3 mb-3">Thanks for visiting!</p>
+      <p className="mb-3 mt-3">Thanks for visiting!</p>
     </section>
   );
 }

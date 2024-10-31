@@ -38,7 +38,7 @@ const TextImage = React.forwardRef<HTMLButtonElement, TextImageProps>(
           <span className="md:hidden">{textSm}</span>
         </figcaption>
         <Image
-          className="max-h-48 md:max-h-56 lg:max-h-64 w-auto"
+          className="max-h-48 w-auto md:max-h-56 lg:max-h-64"
           src={img}
           alt={alt}
         />

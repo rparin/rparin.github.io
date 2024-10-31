@@ -54,12 +54,12 @@ export default function PImage(project: pType) {
 
   return (
     <>
-      <div className="absolute hidden group-focus-within:grid group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
+      <div className="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5">
         {demoImage}
-        <ul className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
+        <ul className="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2">
           {devTools}
         </ul>
-        <div className="col-span-4 md:col-span-5 flex flex-row justify-center items-center gap-1 truncate">
+        <div className="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5">
           {project.name}
           {project.website && (
             <a
@@ -68,7 +68,7 @@ export default function PImage(project: pType) {
               aria-label={`${project.name} Website`}
               target="_blank"
               rel="noopener noreferrer">
-              <ExternalLink className="w-auto h-3 md:h-4 mb-2" />
+              <ExternalLink className="mb-2 h-3 w-auto md:h-4" />
             </a>
           )}
           {project.github && (
@@ -79,7 +79,7 @@ export default function PImage(project: pType) {
               target="_blank"
               rel="noopener noreferrer">
               <Image
-                className="w-auto h-5 md:h-7 dark:invert ml-1"
+                className="ml-1 h-5 w-auto dark:invert md:h-7"
                 src={SocialIcons.github.img}
                 alt={SocialIcons.github.alt}
               />
