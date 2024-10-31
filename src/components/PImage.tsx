@@ -53,13 +53,8 @@ export default function PImage(project: pType) {
   }
 
   return (
-    <div
-      className={
-        project.span
-          ? "col-span-2 relative md:hover:overflow-y-auto group"
-          : "relative md:hover:overflow-y-auto group"
-      }>
-      <div className="absolute hidden group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
+    <>
+      <div className="absolute hidden group-focus-within:grid group-hover:grid grid-cols-4 grid-rows-4 md:grid-cols-5 md:grid-rows-5 text-text text-base font-semibold bg-gradient-to-t from-background from-1% backdrop-blur-md w-auto max-h-full">
         {demoImage}
         <ul className="p-scroll mt-1 lg:mt-2 row-span-3 md:row-span-4 flex flex-col justify-start items-center mx-1 gap-2 overflow-y-auto">
           {devTools}
@@ -101,6 +96,6 @@ export default function PImage(project: pType) {
         // placeholder="blur"
         // blurDataURL={project.img}
       />
-    </div>
+    </>
   );
 }
