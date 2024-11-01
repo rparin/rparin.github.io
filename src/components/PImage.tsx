@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DevTools from "@/components/ui/devTools";
+import DevTools from "@/components/ui/DevTools";
 import { pType } from "@/constants/Projects";
 import { SocialIcons } from "@/constants/Icons";
 import { ExternalLink } from "lucide-react";
