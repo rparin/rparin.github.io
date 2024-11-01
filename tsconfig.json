@@ -22,7 +22,8 @@
       "@/*": ["./src/*"],
       "@icons/*": ["./src/assets/icons/*"],
       "@project/*": ["./src/assets/Projects/*"],
-      "@demo/*": ["./src/assets/Demos/*"]
+      "@demo/*": ["./src/assets/Demos/*"],
+      "@test-utils/*": ["./__tests__/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
