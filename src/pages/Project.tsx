@@ -5,6 +5,7 @@ export default function Project({ id }: { id: string }) {
   const PItems = [];
   for (const [k, project] of Object.entries(ProjectItems)) {
     PItems.push(<PImage key={k} {...project} />);
+    break;
   }
 
   return (

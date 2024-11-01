@@ -55,29 +55,31 @@ export default function PImage(project: pType) {
           className="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5">
           <span role="rowheader">{project.name}</span>
           {project.website && (
-            <a
-              role="gridcell"
-              aria-label="Website"
-              href={project.website}
-              target="_blank"
-              rel="noopener noreferrer">
-              <ExternalLink className="mb-2 h-3 w-auto md:h-4" />
-            </a>
+            <span role="cell">
+              <a
+                aria-label="Website"
+                href={project.website}
+                target="_blank"
+                rel="noopener noreferrer">
+                <ExternalLink className="mb-2 h-3 w-auto md:h-4" />
+              </a>
+            </span>
           )}
           {project.github && (
-            <a
-              role="gridcell"
-              aria-label="Github"
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer">
-              <Image
-                aria-hidden="true"
-                className="ml-1 h-5 w-auto dark:invert md:h-7"
-                src={SocialIcons.github.img}
-                alt={SocialIcons.github.alt}
-              />
-            </a>
+            <span role="cell">
+              <a
+                aria-label="Github"
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer">
+                <Image
+                  aria-hidden="true"
+                  className="ml-1 h-5 w-auto dark:invert md:h-7"
+                  src={SocialIcons.github.img}
+                  alt={SocialIcons.github.alt}
+                />
+              </a>
+            </span>
           )}
         </div>
       </div>
