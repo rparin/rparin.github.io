@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component unchanged 1`] = `
+<div>
+  <div
+    aria-label="Dev Tools"
+    class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+    role="row"
+  >
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="React"
+        href="https://react.dev/"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of react"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="Nextjs"
+        href="https://nextjs.org/"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of nextjs"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="Spring Boot"
+        href="https://spring.io/projects/spring-boot"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of Spring Boot"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="Docker"
+        href="https://www.docker.com"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of Docker"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="Tailwind"
+        href="https://tailwindcss.com/"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of tailwind"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="Zod"
+        href="https://zod.dev"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of zod"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+    <span
+      role="cell"
+    >
+      <a
+        aria-label="Java"
+        href="https://www.java.com/en/download/help/whatis_java.html"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <img
+          alt="logo of java"
+          class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component unchanged 1`] = `
+<div>
+  <a
+    aria-label="Website Home Page"
+    class="absolute left-5 top-2.5 z-60 flex select-none gap-1 px-2 text-center text-white hover:text-accent active:text-active dark:text-white dark:hover:text-accent dark:active:text-active md:fixed md:left-10 md:text-black"
+    href="/"
+  >
+    &lt; 
+    RP
+     /&gt;
+  </a>
+  <button
+    aria-checked="false"
+    aria-label="Toggle Theme"
+    class="border-input hover:text-accent-foreground absolute right-5 top-1 z-60 h-9 rounded-md border-0 bg-background px-3 hover:bg-background active:bg-active dark:bg-background dark:hover:bg-background dark:active:bg-active md:fixed md:right-10 md:px-8"
+    role="switch"
+    type="button"
+  >
+    <svg
+      class="dark:hidden"
+      fill="none"
+      height="24"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="12"
+        cy="12"
+        r="4"
+      />
+      <path
+        d="M12 2v2"
+      />
+      <path
+        d="M12 20v2"
+      />
+      <path
+        d="m4.93 4.93 1.41 1.41"
+      />
+      <path
+        d="m17.66 17.66 1.41 1.41"
+      />
+      <path
+        d="M2 12h2"
+      />
+      <path
+        d="M20 12h2"
+      />
+      <path
+        d="m6.34 17.66-1.41 1.41"
+      />
+      <path
+        d="m19.07 4.93-1.41 1.41"
+      />
+    </svg>
+    <svg
+      class="hidden dark:block"
+      fill="none"
+      height="24"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"
+      />
+    </svg>
+  </button>
+  <section
+    class="absolute bottom-2 z-50 flex w-full flex-col gap-1 text-center md:gap-1.5"
+  >
+    <h1
+      class="text-2xl font-semibold leading-7 md:text-3xl md:leading-10"
+    >
+      Ralph
+       
+      Parin
+    </h1>
+    <p
+      class="text-base font-normal dark:font-light"
+    >
+      Software Engineer, Web Developer, Gamer
+    </p>
+    <p
+      class="text-base font-normal dark:font-light"
+    >
+      I enjoy
+      <span
+        class="font-normal dark:font-light"
+      >
+         
+        learning new things
+      </span>
+    </p>
+    <div
+      class="flex flex-row justify-center gap-2"
+    >
+      <a
+        aria-label="Email Ralph"
+        class="text-base font-normal text-url dark:font-light"
+        href="mailto:r.parin070@gmail.com"
+      >
+        r.parin070@gmail.com
+      </a>
+      <a
+        aria-label="Ralph's Github"
+        href="https://github.com/rparin"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Github"
+          class="h-8 w-8 object-cover dark:invert"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+      <a
+        aria-label="Ralph's LinkedIn"
+        href="https://www.linkedin.com/in/rparin"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn"
+          class="h-8 w-8 object-cover"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </a>
+    </div>
+  </section>
+</div>
+`;

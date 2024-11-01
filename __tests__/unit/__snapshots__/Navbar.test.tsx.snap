@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component unchanged 1`] = `
+<div>
+  <nav
+    class="sticky top-[-1px] z-10 bg-background drop-shadow-lg"
+  >
+    <ul
+      class="ml-5 flex flex-row justify-center gap-7 overflow-y-auto py-3 pr-5 md:gap-10 md:py-4"
+    >
+      <li
+        class="mt-1"
+      >
+        <a
+          class=""
+          href="#projects"
+        >
+          Projects
+        </a>
+      </li>
+      <li
+        class="mt-1"
+      >
+        <a
+          class=""
+          href="#about"
+        >
+          About
+        </a>
+      </li>
+      <li
+        class="mt-1"
+      >
+        <a
+          class=""
+          href="#contact"
+        >
+          Contact
+        </a>
+      </li>
+      <li>
+        <form
+          action="https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Ralph_Parin_Resume.pdf"
+          class="m-0 flex flex-row rounded-md bg-primary p-0 text-text hover:bg-secondary dark:bg-primary dark:text-text dark:hover:bg-secondary"
+          method="get"
+        >
+          <button
+            aria-label="Download Ralph's Resume"
+            class="p-0 pb-1 pl-2 pr-2 pt-1"
+            type="submit"
+          >
+            Resume
+          </button>
+          <div
+            class="flex justify-end rounded-r-md bg-secondary"
+          >
+            <svg
+              class="h-auto w-8 p-2 invert dark:invert-0 sm:p-1.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+              />
+              <polyline
+                points="7 10 12 15 17 10"
+              />
+              <line
+                x1="12"
+                x2="12"
+                y1="15"
+                y2="3"
+              />
+            </svg>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

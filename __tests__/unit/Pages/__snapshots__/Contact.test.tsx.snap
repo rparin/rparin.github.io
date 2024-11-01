@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component unchanged 1`] = `
+<div>
+  <section
+    class="mx-5 flex flex-col text-center before:block before:h-20 before:content-[''] lg:mx-16"
+    id="contact"
+  >
+    <div
+      class="min-h-[45vh]"
+    >
+      <h2
+        class="mt-10 text-2xl font-normal md:text-3xl"
+      >
+        Get In Touch
+      </h2>
+      <div
+        class="mt-10 flex flex-wrap items-center justify-center gap-6"
+      >
+        <a
+          aria-label="Email Ralph"
+          href="mailto:r.parin070@gmail.com"
+        >
+          <img
+            alt="logo of Gmail"
+            class="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </a>
+        <a
+          aria-label="Ralph's LinkedIn"
+          href="https://www.linkedin.com/in/rparin"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="logo of LinkedIn"
+            class="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </a>
+        <a
+          aria-label="Ralph's Github"
+          href="https://github.com/rparin"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="logo of Github"
+            class="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0 dark:invert"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </a>
+      </div>
+    </div>
+    <h3
+      class="mb-3 mt-3 text-base font-normal"
+    >
+      Thanks for visiting!
+    </h3>
+  </section>
+</div>
+`;
