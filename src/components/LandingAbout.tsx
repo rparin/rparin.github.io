@@ -8,6 +8,7 @@ export default function LandingAbout() {
   return (
     <>
       <Link
+        aria-label="Website Home Page"
         replace={true}
         href="/"
         className="absolute left-5 top-2.5 z-60 flex select-none gap-1 px-2 text-center text-white hover:text-accent active:text-active dark:text-white dark:hover:text-accent dark:active:text-active md:fixed md:left-10 md:text-black">
@@ -30,13 +31,13 @@ export default function LandingAbout() {
 
         <div className="flex flex-row justify-center gap-2">
           <a
-            title={SocialIcons.gmail.name}
+            aria-label="Email Ralph"
             href={"mailto:" + AboutGen.email}
             className="text-base font-normal text-url dark:font-light">
             {AboutGen.email}
           </a>
           <a
-            title={SocialIcons.github.name}
+            aria-label="Ralph's Github"
             href={Socials.github}
             target="_blank"
             rel="noopener noreferrer">
@@ -47,7 +48,7 @@ export default function LandingAbout() {
             />
           </a>
           <a
-            title={SocialIcons.linkedin.name}
+            aria-label="Ralph's LinkedIn"
             href={Socials.linkedIn}
             target="_blank"
             rel="noopener noreferrer">

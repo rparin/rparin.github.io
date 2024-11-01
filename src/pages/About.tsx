@@ -8,7 +8,7 @@ export default function About({ id }: { id: string }) {
       id={id}
       className="mx-5 before:block before:h-20 before:content-[''] lg:mx-16">
       <div className="flex flex-col gap-10">
-        <h2 className="text-center text-base font-normal md:text-lg">
+        <h2 className="text-center text-base font-normal md:text-2xl">
           <i>{AboutMe.Intro}</i>
         </h2>
 

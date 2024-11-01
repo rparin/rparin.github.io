@@ -11,7 +11,7 @@ export default function Contact({ id }: { id: string }) {
         <h2 className="mt-10 text-2xl font-normal md:text-3xl">Get In Touch</h2>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
-          <a title={SocialIcons.gmail.name} href={"mailto:" + AboutGen.email}>
+          <a aria-label="Email Ralph" href={"mailto:" + AboutGen.email}>
             <Image
               className="h-auto max-h-[12vh] w-14 p-1 drop-shadow-xl hover:p-0"
               src={SocialIcons.gmail.img}
@@ -19,7 +19,7 @@ export default function Contact({ id }: { id: string }) {
             />
           </a>
           <a
-            title={SocialIcons.linkedin.name}
+            aria-label="Ralph's LinkedIn"
             href={Socials.linkedIn}
             target="_blank"
             rel="noopener noreferrer">
@@ -30,7 +30,7 @@ export default function Contact({ id }: { id: string }) {
             />
           </a>
           <a
-            title={SocialIcons.github.name}
+            aria-label="Ralph's Github"
             href={Socials.github}
             target="_blank"
             rel="noopener noreferrer">
@@ -43,7 +43,7 @@ export default function Contact({ id }: { id: string }) {
         </div>
       </div>
 
-      <p className="mb-3 mt-3">Thanks for visiting!</p>
+      <h3 className="mb-3 mt-3 text-base font-normal">Thanks for visiting!</h3>
     </section>
   );
 }
