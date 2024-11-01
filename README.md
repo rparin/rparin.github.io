@@ -24,9 +24,7 @@ A portfolio website made using Tailwind CSS, React, Next.js, and Shadcn for UI c
 
 ### Todo
 
-- Accessibility Tests
-- Banner animation
-- Scroll Transitions
+- Accessibility Tests ✔️
 - Holiday themes
 - Mouse pet
 
