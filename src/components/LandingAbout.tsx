@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { AboutGen, AboutSent, Socials } from "@/constants/About";
 import { SocialIcons } from "@/constants/Icons";
 

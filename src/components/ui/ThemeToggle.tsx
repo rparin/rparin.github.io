@@ -2,9 +2,9 @@
 
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
 import { signal } from "@preact/signals";
+import { cn } from "@/lib/utils";
 
 export const signalTheme = signal("light");
 export function ThemeToggle({ className }: { className?: string | undefined }) {
@@ -31,13 +31,15 @@ export function ThemeToggle({ className }: { className?: string | undefined }) {
   });
 
   return (
-    <Button
-      className={className}
-      variant="outline"
+    <button
+      className={cn(
+        "border-input hover:text-accent-foreground h-10 border bg-background px-4 hover:bg-accent",
+        className
+      )}
       onClick={() => changeTheme()}>
-      <Sun className="h-[2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute h-[2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+      <Sun className="dark:hidden" />
+      <Moon className="hidden dark:block" />
       <span className="sr-only">Toggle theme</span>
-    </Button>
+    </button>
   );
 }
