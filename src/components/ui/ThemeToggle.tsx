@@ -32,6 +32,11 @@ export function ThemeToggle({ className }: { className?: string | undefined }) {
 
   return (
     <button
+      aria-label="Toggle Dark Mode"
+      role="switch"
+      aria-checked={
+        window.localStorage.getItem("theme") == "dark" ? "true" : "false"
+      }
       className={cn(
         "border-input hover:text-accent-foreground h-10 border bg-background px-4 hover:bg-accent",
         className
@@ -39,7 +44,6 @@ export function ThemeToggle({ className }: { className?: string | undefined }) {
       onClick={() => changeTheme()}>
       <Sun className="dark:hidden" />
       <Moon className="hidden dark:block" />
-      <span className="sr-only">Toggle theme</span>
     </button>
   );
 }
