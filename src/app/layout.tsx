@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className="scroll">
+    <html lang="en" suppressHydrationWarning>
       <body className={font.className}>
         <ThemeProvider
           attribute="class"
