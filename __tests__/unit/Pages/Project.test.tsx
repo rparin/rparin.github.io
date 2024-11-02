@@ -14,5 +14,5 @@ describe("testing Project Page Accessibility", () => {
 
 test("it renders component unchanged", () => {
   const { container } = render(<Project id={NavItems.projects.id} />);
-  expect(container).not.toMatchSnapshot();
+  expect(container).toMatchSnapshot();
 });
