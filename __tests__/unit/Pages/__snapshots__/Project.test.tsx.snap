@@ -319,6 +319,1638 @@ exports[`it renders component unchanged 1`] = `
           width="1912"
         />
       </li>
+      <li
+        class="group relative col-span-2 md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Clinical Trials Map"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Clinical Trials Map"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FCTMap%2Fmain%2F_preview%2FDemo.gif&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FCTMap%2Fmain%2F_preview%2FDemo.gif&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FCTMap%2Fmain%2F_preview%2FDemo.gif&w=3840&q=75 2x"
+            style="color: transparent;"
+            width="1912"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="React"
+                href="https://react.dev/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of react"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Nodejs"
+                href="https://nodejs.org/en"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of nodejs"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Tailwind"
+                href="https://tailwindcss.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of tailwind"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Mapbox"
+                href="https://www.mapbox.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of mapbox"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Typescript"
+                href="https://www.typescriptlang.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of typescript"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="HTML"
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of html"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Clinical Trials Map
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/CTMap"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Clinical Trials Map App Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FCTMap%2Fmain%2F_preview%2FCTMap.webp&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FCTMap%2Fmain%2F_preview%2FCTMap.webp&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FCTMap%2Fmain%2F_preview%2FCTMap.webp&w=3840&q=75 2x"
+          style="color: transparent;"
+          width="1912"
+        />
+      </li>
+      <li
+        class="group relative md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Hello Dog"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Hello Dog Website"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FHello-Dog%2Fmain%2F_preview%2FDemo.gif&w=1920&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FHello-Dog%2Fmain%2F_preview%2FDemo.gif&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FHello-Dog%2Fmain%2F_preview%2FDemo.gif&w=1920&q=75 2x"
+            style="color: transparent;"
+            width="956"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="React"
+                href="https://react.dev/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of react"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Nextjs"
+                href="https://nextjs.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of nextjs"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Spring Boot"
+                href="https://spring.io/projects/spring-boot"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Spring Boot"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Docker"
+                href="https://www.docker.com"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Docker"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Tailwind"
+                href="https://tailwindcss.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of tailwind"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Zod"
+                href="https://zod.dev"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of zod"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Java"
+                href="https://www.java.com/en/download/help/whatis_java.html"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of java"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Hello Dog
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Website"
+                href="https://hello-dog.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="mb-2 h-3 w-auto md:h-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                  <polyline
+                    points="15 3 21 3 21 9"
+                  />
+                  <line
+                    x1="10"
+                    x2="21"
+                    y1="14"
+                    y2="3"
+                  />
+                </svg>
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/Hello-Dog/tree/SpringBoot"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Hello Dog Website screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FHello-Dog%2Fmain%2F_preview%2Fpreview.png&w=1920&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FHello-Dog%2Fmain%2F_preview%2Fpreview.png&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FHello-Dog%2Fmain%2F_preview%2Fpreview.png&w=1920&q=75 2x"
+          style="color: transparent;"
+          width="956"
+        />
+      </li>
+      <li
+        class="group relative md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Sudoku"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Sudoku game"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSudoku%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSudoku%2Fmain%2Fpreview%2FDemo.gif&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSudoku%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75 2x"
+            style="color: transparent;"
+            width="956"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Python"
+                href="https://www.python.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of python programming language"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Pygame"
+                href="https://www.pygame.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of pygame library"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Sudoku
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/Sudoku"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Sudoku Help Menu Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSudoku%2Fmain%2Fpreview%2FSudoku.webp&w=1920&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSudoku%2Fmain%2Fpreview%2FSudoku.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSudoku%2Fmain%2Fpreview%2FSudoku.webp&w=1920&q=75 2x"
+          style="color: transparent;"
+          width="956"
+        />
+      </li>
+      <li
+        class="group relative col-span-2 md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Search Engine"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of search engine"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2Frparin.github.io%2Fmain%2Fsrc%2Fassets%2FProjects%2FSSearch%2FDemo.gif&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2Frparin.github.io%2Fmain%2Fsrc%2Fassets%2FProjects%2FSSearch%2FDemo.gif&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2Frparin.github.io%2Fmain%2Fsrc%2Fassets%2FProjects%2FSSearch%2FDemo.gif&w=3840&q=75 2x"
+            style="color: transparent;"
+            width="1912"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Python"
+                href="https://www.python.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of python programming language"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="OpenAi"
+                href="https://openai.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of openai"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Flask"
+                href="https://flask.palletsprojects.com/en/3.0.x/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of flask framework"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Pandas"
+                href="https://pandas.pydata.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of pandas library"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="HTML"
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of html"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="CSS"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of css"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Javascript"
+                href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of javascript"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Search Engine
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Search App Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2Frparin.github.io%2Fmain%2Fsrc%2Fassets%2FProjects%2FSSearch%2FSearch.webp&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2Frparin.github.io%2Fmain%2Fsrc%2Fassets%2FProjects%2FSSearch%2FSearch.webp&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2Frparin.github.io%2Fmain%2Fsrc%2Fassets%2FProjects%2FSSearch%2FSearch.webp&w=3840&q=75 2x"
+          style="color: transparent;"
+          width="1912"
+        />
+      </li>
+      <li
+        class="group relative col-span-2 md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Sleep Tracker"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Sleep Tracker App"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSleep-Tracker%2Fmain%2Fpreview%2FDemo.gif&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSleep-Tracker%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSleep-Tracker%2Fmain%2Fpreview%2FDemo.gif&w=3840&q=75 2x"
+            style="color: transparent;"
+            width="1912"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Angular"
+                href="https://angular.io/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of angular"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Firebase"
+                href="https://firebase.google.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of firebase"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Ionic"
+                href="https://ionicframework.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of ionic"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="HTML"
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of html"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="CSS"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of css"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Typescript"
+                href="https://www.typescriptlang.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of typescript"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Sleep Tracker
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/Sleep-Tracker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Sleep Tracker App Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSleep-Tracker%2Fmain%2Fpreview%2FSleep%2520Tracker.webp&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSleep-Tracker%2Fmain%2Fpreview%2FSleep%2520Tracker.webp&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FSleep-Tracker%2Fmain%2Fpreview%2FSleep%2520Tracker.webp&w=3840&q=75 2x"
+          style="color: transparent;"
+          width="1912"
+        />
+      </li>
+      <li
+        class="group relative col-span-2 md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Graphing Calculator"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Graphing Calc App"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FGraphing-Calculator%2Fmain%2Fpreview%2FDemo.gif&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FGraphing-Calculator%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FGraphing-Calculator%2Fmain%2Fpreview%2FDemo.gif&w=3840&q=75 2x"
+            style="color: transparent;"
+            width="1912"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="C++"
+                href="https://isocpp.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of c++"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="SFML"
+                href="https://www.sfml-dev.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of SFML library"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Graphing Calculator
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/Graphing-Calculator"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Graphing Calculator App Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FGraphing-Calculator%2Fmain%2Fpreview%2FGCalc.webp&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FGraphing-Calculator%2Fmain%2Fpreview%2FGCalc.webp&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FGraphing-Calculator%2Fmain%2Fpreview%2FGCalc.webp&w=3840&q=75 2x"
+          style="color: transparent;"
+          width="1912"
+        />
+      </li>
+      <li
+        class="group relative col-span-2 md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Font Viewer"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Font Viewer Application"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FFont-Viewer%2Fmain%2Fpreview%2Fdemo.gif&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FFont-Viewer%2Fmain%2Fpreview%2Fdemo.gif&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FFont-Viewer%2Fmain%2Fpreview%2Fdemo.gif&w=3840&q=75 2x"
+            style="color: transparent;"
+            width="1912"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Angular"
+                href="https://angular.io/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of angular"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Firebase"
+                href="https://firebase.google.com/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of firebase"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Tensorflow"
+                href="https://www.tensorflow.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of tensorflow"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="HTML"
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of html"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="CSS"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of css"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Typescript"
+                href="https://www.typescriptlang.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of typescript"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Font Viewer
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/Font-Viewer"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Font Viewer App Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FFont-Viewer%2Fmain%2Fpreview%2FFViewer.webp&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FFont-Viewer%2Fmain%2Fpreview%2FFViewer.webp&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FFont-Viewer%2Fmain%2Fpreview%2FFViewer.webp&w=3840&q=75 2x"
+          style="color: transparent;"
+          width="1912"
+        />
+      </li>
+      <li
+        class="group relative md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Prey Predator Sim"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Prey and Predator Sim"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FPrey-and-Predator%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FPrey-and-Predator%2Fmain%2Fpreview%2FDemo.gif&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FPrey-and-Predator%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75 2x"
+            style="color: transparent;"
+            width="956"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="C++"
+                href="https://isocpp.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of c++"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="SFML"
+                href="https://www.sfml-dev.org/"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of SFML library"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Prey Predator Sim
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/Prey-and-Predator"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Prey Predator Simulation Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FPrey-and-Predator%2Fmain%2Fpreview%2FPreyPredSim.webp&w=1920&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FPrey-and-Predator%2Fmain%2Fpreview%2FPreyPredSim.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FPrey-and-Predator%2Fmain%2Fpreview%2FPreyPredSim.webp&w=1920&q=75 2x"
+          style="color: transparent;"
+          width="956"
+        />
+      </li>
+      <li
+        class="group relative md:hover:overflow-y-auto"
+        tabindex="0"
+      >
+        <div
+          aria-label="Text Editor"
+          class="from-1% absolute hidden max-h-full w-auto grid-cols-4 grid-rows-4 bg-gradient-to-t from-background text-base font-semibold text-text backdrop-blur-md group-focus-within:grid group-hover:grid md:grid-cols-5 md:grid-rows-5"
+          role="grid"
+        >
+          <img
+            alt="Demo of Text Editor App"
+            aria-hidden="true"
+            class="col-span-3 row-span-3 md:col-span-4 md:row-span-4"
+            data-nimg="1"
+            decoding="async"
+            height="924"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FJText-Editor%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FJText-Editor%2Fmain%2Fpreview%2FDemo.gif&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FJText-Editor%2Fmain%2Fpreview%2FDemo.gif&w=1920&q=75 2x"
+            style="color: transparent;"
+            width="956"
+          />
+          <div
+            aria-label="Dev Tools"
+            class="p-scroll row-span-3 mx-1 mt-1 flex flex-col items-center justify-start gap-2 overflow-y-auto md:row-span-4 lg:mt-2"
+            role="row"
+          >
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Java"
+                href="https://www.java.com/en/download/help/whatis_java.html"
+                rel="noopener noreferrer"
+                tabindex="-1"
+                target="_blank"
+              >
+                <img
+                  alt="logo of java"
+                  class="h-auto w-7 md:w-10 lg:w-14 md:p-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+          <div
+            class="col-span-4 flex flex-row items-center justify-center gap-1 truncate md:col-span-5"
+            role="row"
+          >
+            <span
+              role="rowheader"
+            >
+              Text Editor
+            </span>
+            <span
+              role="cell"
+            >
+              <a
+                aria-label="Github"
+                href="https://github.com/rparin/JText-Editor"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="logo of Github"
+                  aria-hidden="true"
+                  class="ml-1 h-5 w-auto dark:invert md:h-7"
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+        <img
+          alt="Text Editor Screenshot"
+          aria-hidden="true"
+          data-nimg="1"
+          decoding="async"
+          height="924"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FJText-Editor%2Fmain%2Fpreview%2FTextEditor.webp&w=1920&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FJText-Editor%2Fmain%2Fpreview%2FTextEditor.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Frparin%2FJText-Editor%2Fmain%2Fpreview%2FTextEditor.webp&w=1920&q=75 2x"
+          style="color: transparent;"
+          width="956"
+        />
+      </li>
     </ul>
   </section>
 </div>
