@@ -46,7 +46,8 @@
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
-      "eslint --cache --fix"
+      "eslint --cache --fix",
+      "npm run test"
     ],
     "**/*.{js,css,md,ts,tsx}": "prettier --write"
   }
