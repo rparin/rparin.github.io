@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepare": "husky install"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
@@ -42,5 +43,9 @@
     "tailwindcss": "latest",
     "ts-node": "^10.9.2",
     "typescript": "latest"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --cache --fix", "npm run test"],
+    "*.{js,css,md}": "prettier --write"
   }
 }
