@@ -33,4 +33,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#Other
 .eslintcache
+my-portfolio@0.1.0
+jest
