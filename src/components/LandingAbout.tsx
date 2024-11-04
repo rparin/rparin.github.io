@@ -11,7 +11,7 @@ export default function LandingAbout() {
         aria-label="Website Home Page"
         replace={true}
         href="/"
-        className="absolute left-5 top-2.5 z-60 flex select-none gap-1 px-2 text-center text-white hover:text-accent active:text-active dark:text-white dark:hover:text-accent dark:active:text-active md:fixed md:left-10 md:text-black">
+        className="horizontal-mask absolute left-5 top-2.5 z-60 flex select-none gap-1 bg-background px-3 text-center text-white hover:text-accent active:text-active dark:text-white dark:hover:text-accent dark:active:text-active md:fixed md:left-10 md:text-black">
         &lt; {AboutGen.Initials} /&gt;
       </Link>
 

@@ -72,8 +72,26 @@
   }
 
   .banner-grad {
-    background: linear-gradient(180deg, transparent 25%, var(--background) 99%),
-      linear-gradient(180deg, transparent 40%, var(--background) 99%);
+    background: linear-gradient(180deg, transparent 35%, var(--background) 99%),
+      linear-gradient(180deg, transparent 10%, var(--background) 95%);
+  }
+
+  /* Horizontal fade in and out */
+  .horizontal-mask {
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 30%,
+      white 80%,
+      transparent
+    );
+    mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
   }
 }
 
