@@ -8,7 +8,7 @@ exports[`it renders component unchanged 1`] = `
   >
     <a
       aria-label="Website Home Page"
-      class="horizontal-mask absolute left-5 top-2.5 z-60 flex select-none gap-1 bg-background px-3 text-center text-white hover:text-accent active:text-active dark:text-white dark:hover:text-accent dark:active:text-active md:fixed md:left-10 md:text-black"
+      class="horizontal-mask absolute left-5 top-2.5 z-60 flex select-none gap-1 bg-background px-3 text-center hover:text-accent active:text-active dark:hover:text-accent dark:active:text-active md:fixed md:left-10"
       href="/"
     >
       &lt; 
