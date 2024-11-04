@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NavItems, Resume } from "@/constants/NavLinks";
-import { Download } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export default function Navbar({ activeId }: { activeId?: string }) {
   const [NavTags, setNavTags] = useState<React.ReactElement[]>([]);
@@ -44,7 +44,7 @@ export default function Navbar({ activeId }: { activeId?: string }) {
                 {Resume.title}
               </button>
               <div className="flex justify-end rounded-r-md bg-secondary">
-                <Download className="h-auto w-8 p-2 invert dark:invert-0 sm:p-1.5" />
+                <ExternalLink className="h-auto w-8 p-2 invert dark:invert-0 sm:p-1.5" />
               </div>
             </form>
           </li>

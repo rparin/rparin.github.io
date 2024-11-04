@@ -23,7 +23,7 @@ const NavHome = {
 const Resume = {
   id: "resume",
   title: "Resume",
-  url: "https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Ralph_Parin_Resume.pdf",
+  url: "/Ralph_Parin_Resume.pdf",
 };
 
 export { NavItems, NavHome, Resume };

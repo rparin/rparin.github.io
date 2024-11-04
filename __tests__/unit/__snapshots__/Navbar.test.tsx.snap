@@ -40,7 +40,7 @@ exports[`it renders component unchanged 1`] = `
       </li>
       <li>
         <form
-          action="https://raw.githubusercontent.com/rparin/rparin.github.io/main/public/Ralph_Parin_Resume.pdf"
+          action="/Ralph_Parin_Resume.pdf"
           class="m-0 flex flex-row rounded-md bg-primary p-0 text-text hover:bg-secondary dark:bg-primary dark:text-text dark:hover:bg-secondary"
           method="get"
         >
@@ -67,15 +67,15 @@ exports[`it renders component unchanged 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
               />
               <polyline
-                points="7 10 12 15 17 10"
+                points="15 3 21 3 21 9"
               />
               <line
-                x1="12"
-                x2="12"
-                y1="15"
+                x1="10"
+                x2="21"
+                y1="14"
                 y2="3"
               />
             </svg>
