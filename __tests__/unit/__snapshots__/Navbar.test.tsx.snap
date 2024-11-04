@@ -45,7 +45,7 @@ exports[`it renders component unchanged 1`] = `
           method="get"
         >
           <button
-            aria-label="Download Ralph's Resume"
+            aria-label="View Ralph's Resume"
             class="p-0 pb-1 pl-2 pr-2 pt-1"
             type="submit"
           >

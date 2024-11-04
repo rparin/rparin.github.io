@@ -38,7 +38,7 @@ export default function Navbar({ activeId }: { activeId?: string }) {
               method="get"
               action={Resume.url}>
               <button
-                aria-label="Download Ralph's Resume"
+                aria-label="View Ralph's Resume"
                 className="p-0 pb-1 pl-2 pr-2 pt-1"
                 type="submit">
                 {Resume.title}
