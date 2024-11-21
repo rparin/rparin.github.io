@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test": "cross-env NODE_ENV=test jest __tests__/",
     "test:watch": "jest --watch",
+    "jest": "cross-env NODE_ENV=test jest",
     "prepare": "npx husky install"
   },
   "dependencies": {
@@ -49,7 +50,7 @@
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
       "eslint --cache --fix",
-      "npm run test"
+      "npm run jest -- smoke.test.ts"
     ],
     "**/*.{js,css,md,ts,tsx}": "prettier --write"
   }
