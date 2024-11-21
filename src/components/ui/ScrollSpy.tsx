@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Dictionary } from "@/lib/utils";
 
 export default function ScrollSpy({
@@ -11,37 +11,19 @@ export default function ScrollSpy({
 }) {
   const navIndex: Dictionary<string> = {};
   const [activeIndex, setActiveIndex] = useState<number>(0);
-  const sections: React.JSX.Element[] = [];
-  const navRefs = useRef<Array<HTMLElement>>([]);
-
-  const addToRefs = (el: HTMLElement) => {
-    if (el && !navRefs.current.includes(el)) {
-      navRefs.current.push(el);
-    }
-  };
 
   children.map((child, index) => {
     navIndex[index] = child.props.id;
-    sections.push(
-      <child.type
-        {...child.props}
-        key={index + child.props.id}
-        ref={addToRefs}
-      />
-    );
   });
 
   useEffect(() => {
+    const offSets = children.map((child, index) => {
+      return document.getElementById(child.props.id)!.offsetTop;
+    });
     const handleScroll = (e: Event) => {
-      var index = nearestIndex(
-        window.scrollY,
-        navRefs.current,
-        0,
-        navRefs.current.length - 1
-      );
+      var index = nearestIndex(window.scrollY, offSets, 0, offSets.length - 1);
       setActiveIndex(index);
     };
-
     document.addEventListener("scroll", handleScroll);
     return () => {
       document.removeEventListener("scroll", handleScroll);
@@ -53,7 +35,7 @@ export default function ScrollSpy({
   return (
     <>
       {nv}
-      <main>{sections}</main>
+      <main>{children}</main>
     </>
   );
 }
@@ -67,7 +49,7 @@ export default function ScrollSpy({
  */
 const nearestIndex = (
   currentPosition: number,
-  sectionPositionArray: Array<HTMLElement>,
+  sectionPositionArray: Array<number>,
   startIndex: number,
   endIndex: number
 ): number => {
@@ -79,19 +61,15 @@ const nearestIndex = (
     return endIndex;
   } else if (startIndex === endIndex - 1) {
     if (
-      Math.abs(sectionPositionArray[startIndex].offsetTop - currentPosition) <
-      Math.abs(sectionPositionArray[endIndex].offsetTop - currentPosition)
+      Math.abs(sectionPositionArray[startIndex] - currentPosition) <
+      Math.abs(sectionPositionArray[endIndex] - currentPosition)
     )
       return startIndex;
     else return endIndex;
   } else {
     var nextNearest = ~~((startIndex + endIndex) / 2);
-    var a = Math.abs(
-      sectionPositionArray[nextNearest].offsetTop - currentPosition
-    );
-    var b = Math.abs(
-      sectionPositionArray[nextNearest + 1].offsetTop - currentPosition
-    );
+    var a = Math.abs(sectionPositionArray[nextNearest] - currentPosition);
+    var b = Math.abs(sectionPositionArray[nextNearest + 1] - currentPosition);
     if (a < b) {
       return nearestIndex(
         currentPosition,
