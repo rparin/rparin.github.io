@@ -7,18 +7,20 @@ export default function ScrollSpy({
   children,
 }: {
   navbar: React.ReactElement;
-  children: React.ReactElement[];
+  children: React.ReactElement<{ id: string }>[];
 }) {
   const navIndex: Dictionary<string> = {};
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
   children.map((child, index) => {
-    navIndex[index] = child.props.id;
+    navIndex[index] = (child as React.ReactElement<{ id: string }>).props.id;
   });
 
   useEffect(() => {
     const offSets = children.map((child, index) => {
-      return document.getElementById(child.props.id)!.offsetTop;
+      return document.getElementById(
+        (child as React.ReactElement<{ id: string }>).props.id
+      )!.offsetTop;
     });
     const handleScroll = (e: Event) => {
       var index = nearestIndex(window.scrollY, offSets, 0, offSets.length - 1);
@@ -28,9 +30,12 @@ export default function ScrollSpy({
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [children]);
 
-  const nv = React.cloneElement(navbar, { activeId: navIndex[activeIndex] });
+  const nv = React.cloneElement(
+    navbar as React.ReactElement<{ activeId?: string }>,
+    { activeId: navIndex[activeIndex] }
+  );
 
   return (
     <>
