@@ -39,18 +39,15 @@ exports[`it renders component unchanged 1`] = `
         </a>
       </li>
       <li>
-        <form
-          action="/Ralph_Parin_Resume.pdf"
+        <a
           class="m-0 flex flex-row rounded-md bg-primary p-0 text-text hover:bg-secondary dark:bg-primary dark:text-text dark:hover:bg-secondary"
-          method="get"
+          href="/Ralph_Parin_Resume.pdf"
         >
-          <button
-            aria-label="View Ralph's Resume"
+          <span
             class="p-0 pb-1 pl-2 pr-2 pt-1"
-            type="submit"
           >
             Resume
-          </button>
+          </span>
           <div
             class="flex justify-end rounded-r-md bg-secondary"
           >
@@ -80,7 +77,7 @@ exports[`it renders component unchanged 1`] = `
               />
             </svg>
           </div>
-        </form>
+        </a>
       </li>
     </ul>
   </nav>
