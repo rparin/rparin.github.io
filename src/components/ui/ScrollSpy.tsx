@@ -6,8 +6,8 @@ export default function ScrollSpy({
   navbar,
   children,
 }: {
-  navbar: React.ReactElement;
-  children: React.ReactElement[];
+  navbar: React.ReactElement<{ activeId?: string }>;
+  children: React.ReactElement<{ id: string }>[];
 }) {
   const navIndex: Dictionary<string> = {};
   const [activeIndex, setActiveIndex] = useState<number>(0);
@@ -28,7 +28,7 @@ export default function ScrollSpy({
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [children]);
 
   const nv = React.cloneElement(navbar, { activeId: navIndex[activeIndex] });
 
