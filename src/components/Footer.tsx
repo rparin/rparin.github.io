@@ -13,7 +13,7 @@ export default function Footer() {
           <ExternalLink className="h-3/5 w-auto max-w-[1.5vh]" />
         </a>
       </div>
-      <p className="text-sm">©️ 2024. Designed and Developed by Ralph Parin.</p>
+      <p className="text-sm">©️ 2025. Designed and Developed by Ralph Parin.</p>
     </footer>
   );
 }
