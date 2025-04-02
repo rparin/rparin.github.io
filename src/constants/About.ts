@@ -2,7 +2,7 @@ const AboutGen = {
   Initials: "RP",
   First: "Ralph",
   Last: "Parin",
-  email: "r.parin070@gmail.com",
+  email: "ralphparin@gmail.com",
   titles: "Software Engineer, Web Developer, Gamer",
   sent: "I enjoy",
 };
